@@ -1,0 +1,23 @@
+/*General style for All app */
+
+/*Viraiable colors*/
+$mainColor: #CE2E2E;
+$color:#fff;
+$contentColor:#FAF9F7;
+$shadowColor :#eee;
+$buttonColor:#31A67A;
+$linkColor : #000;
+/*Style Nav bar*/
+@mixin  navbar {
+    background-color: $mainColor;
+    color:$color;
+    padding:10px 0px;
+    
+    img{
+        width: 25px;
+        cursor: pointer;
+    }
+    p{
+        margin:0;
+    }
+}

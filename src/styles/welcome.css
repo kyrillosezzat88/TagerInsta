@@ -1,0 +1,29 @@
+/**************style Welcome Page************/
+.welcome {
+  height: 100vh !important;
+}
+
+.welcome img {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.welcome .langs a {
+  margin: 0 10px;
+  padding: 10px 15px;
+  text-align: center;
+  background: none;
+  border: none;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 3px 5px 0px #d3d3dd;
+          box-shadow: 0px 3px 5px 0px #d3d3dd;
+  cursor: pointer;
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.welcome .langs img {
+  width: 30px;
+  margin: 0px 5px;
+}
+/*# sourceMappingURL=welcome.css.map */
