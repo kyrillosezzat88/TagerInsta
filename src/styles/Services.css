@@ -1,0 +1,67 @@
+/*import general */
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/*Style Nav bar*/
+.Services {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.Services nav {
+  background-color: #CE2E2E;
+  color: #fff;
+  padding: 10px 0px;
+  font-family: SnBook;
+}
+
+.Services nav img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.Services nav .backimg {
+  width: 18px;
+}
+
+.Services nav p {
+  margin: 0;
+}
+
+.Services .content {
+  margin: 30px 0;
+}
+
+.Services .content h5 {
+  margin-bottom: 10px;
+}
+
+.Services .content a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.Services .content a div {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 15px 3px #eee;
+          box-shadow: 0px 0px 15px 3px #eee;
+  height: 180px;
+}
+
+.Services .content a div img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.Services .content a div:hover {
+  opacity: .3;
+}
+/*# sourceMappingURL=Services.css.map */

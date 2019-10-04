@@ -7,17 +7,65 @@ $contentColor:#FAF9F7;
 $shadowColor :#eee;
 $buttonColor:#31A67A;
 $linkColor : #000;
+
+/*Fonts*/
+@font-face{
+    font-family: SnBook;
+    src: url("/src/styles/fonts/GE\ Snd\ Book.ttf");
+}
+
+
 /*Style Nav bar*/
 @mixin  navbar {
     background-color: $mainColor;
     color:$color;
     padding:10px 0px;
-    
+    font-family: SnBook;
     img{
         width: 25px;
         cursor: pointer;
     }
+    .backimg{
+        width: 18px;
+    }
     p{
         margin:0;
     }
+}
+
+// Check Box Function
+@mixin CheckBox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    input{
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .checkmark {
+        position: absolute;
+        top: 9%;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border:1px solid #000;
+        border-radius: 50%;
+      }
+     
+      input:checked ~ .checkmark{
+        background-color: #314055;
+      }
+      .checkmark:after{
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      input:checked ~ .checkmark:after {
+        display: block;
+      }
 }

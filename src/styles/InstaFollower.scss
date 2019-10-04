@@ -1,0 +1,31 @@
+/*import general */
+@import 'General';
+.InstaFollower{
+    background-color:$contentColor;
+    height:100vh;
+    nav{
+        @include navbar();
+    }
+    .content{
+        h5{
+            margin:0;
+            margin-top:30px;
+        }
+        p{
+            margin-bottom: 30px !important;
+            font-size: 15px;
+        }
+        .info{
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 0 5px 0px $shadowColor;
+            background: $color;
+            h6{margin: 0;}
+            .blance{border-left: 1px solid #000;padding-left: 10px;}
+            button{
+                background:#314055;
+                border:none
+            }
+        }
+    }
+}

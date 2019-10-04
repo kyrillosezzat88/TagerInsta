@@ -1,4 +1,10 @@
 /*General style for All app */
 /*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
 /*Style Nav bar*/
 /*# sourceMappingURL=General.css.map */

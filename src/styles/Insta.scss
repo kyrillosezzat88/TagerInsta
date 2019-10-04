@@ -1,0 +1,31 @@
+/*import general */
+@import 'General';
+
+.InstaServices{
+    background-color:$contentColor;
+    height:100vh;
+    nav{
+        @include navbar();
+    }
+    .content{
+        margin:30px 0;
+        h5{margin-bottom: 40px;}
+        .insta{
+            box-shadow: 0 0 5px 5px $shadowColor;
+            background: $color;
+            border-radius: 12px;
+            padding: 10px;
+            margin:15px 0;
+            h6{color:#000;margin: 0;}
+            img{
+                margin-right: 15px;
+                width: 40px;
+            }
+            .arrow{
+               
+                width: 15px;
+                margin-left: 55px;
+            }
+        }
+    }
+}

@@ -15,10 +15,18 @@ import visa from '../images/myFatorah.png'
 import Close from '../images/close_payment_popup.png'
 
 class Home extends Component{
-    handelMenu = ()=>{
+    //Function to open menu and when click on it will prevent body function
+    handelMenu = (e)=>{
         let menu = document.getElementsByClassName('menu')[0];
         menu.style.left = '0%';
+        e.stopPropagation();
     }
+    //  //Function To close side menu when click on any part of page
+    // componentDidMount(){
+    //     document.body.onclick = ()=>{
+    //         document.getElementsByClassName('menu')[0].style.left = '-100%';
+    //     }
+    // }
     render(){
         return(
             <div className='Home'>
@@ -53,7 +61,7 @@ class Home extends Component{
                         <p className='text-center'><span>Tager insta </span>All Social Networking Services</p>
                         <div className='row'>
                             <div className='col-6'>
-                                <Link>
+                                <Link to='/Services'>
                                     <div className='service d-flex justify-content-center align-items-center flex-column'>
                                         <img src={Service} alt ='Serive' />
                                         <p>Service</p>
@@ -91,7 +99,7 @@ class Home extends Component{
                 </div>
                 {/* End Content Home Page */}
                 {/* Start Menu */}
-                <div className='menu'>
+                <div className='menu' onClick={this.handelMenu}>
                     <div className='container'>
                             <p className='text-center'>Test</p>
                         <div className='logout d-flex justify-content-between align-items-center'>
@@ -104,7 +112,7 @@ class Home extends Component{
                            <Link><img src={AddBalance} data-toggle="modal" data-target="#myModal"  width="35px"/></Link>
                         </div>
                         <ul>
-                            <li><Link>Services</Link></li>
+                            <li><Link to="/Services">Services</Link></li>
                             <li><Link>Payment History</Link></li>
                             <li><Link>Order History</Link></li>
                             <li><Link>Share App</Link></li>
@@ -115,7 +123,7 @@ class Home extends Component{
                 </div>
                 {/* End Menu */}
                 {/* Start Pop up Payment */}
-                <div className="modal" id="myModal">
+                <div className="modal" id="myModal" >
                     <div className="modal-dialog">
                         <div className="modal-content">
 
@@ -124,21 +132,19 @@ class Home extends Component{
                             <h5 className="modal-title">Add balance</h5>
                             <button type="button" className="close" data-dismiss="modal"><img src={Close} width='20px'/></button>
                         </div>
-
-                    
                         <div className="modal-body">
                            <h5>Choose Payment type</h5>
                            <div>
                                <input type='radio' name='payment' id='paypal'/>
                                <label htmlFor='paypal'><img src={paypal}  alt='paypal'/></label>
+                               <span className="checkmark"></span>
                            </div>
                            <div>
                                <input type='radio' name='payment' id='visa'/>
                                <label htmlFor='visa'><img src={visa} alt='visa'/></label>
+                               <span className="checkmark"></span>
                            </div>
                         </div>
-
-                     
                         <div className="modal-footer d-flex justify-content-center align-item-center flex-column">
                             <h5>Input amount</h5>
                             <input type='text' placeholder='amount with KWD'/>

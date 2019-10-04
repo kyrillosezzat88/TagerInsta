@@ -1,0 +1,64 @@
+/*import general */
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/*Style Nav bar*/
+.MemberUp {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.MemberUp nav {
+  background-color: #CE2E2E;
+  color: #fff;
+  padding: 10px 0px;
+  font-family: SnBook;
+}
+
+.MemberUp nav img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.MemberUp nav .backimg {
+  width: 18px;
+}
+
+.MemberUp nav p {
+  margin: 0;
+}
+
+.MemberUp .head {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.MemberUp .info div {
+  margin-bottom: 20px;
+}
+
+.MemberUp .info div img {
+  margin-right: 10px;
+}
+
+.MemberUp .info .top {
+  margin-bottom: 60px;
+}
+
+.MemberUp button {
+  background: #CE2E2E;
+  border: none;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=MemberUp.css.map */

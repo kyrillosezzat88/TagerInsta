@@ -1,0 +1,67 @@
+/*import general */
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/*Style Nav bar*/
+.InstaServices {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.InstaServices nav {
+  background-color: #CE2E2E;
+  color: #fff;
+  padding: 10px 0px;
+  font-family: SnBook;
+}
+
+.InstaServices nav img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.InstaServices nav .backimg {
+  width: 18px;
+}
+
+.InstaServices nav p {
+  margin: 0;
+}
+
+.InstaServices .content {
+  margin: 30px 0;
+}
+
+.InstaServices .content h5 {
+  margin-bottom: 40px;
+}
+
+.InstaServices .content .insta {
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.InstaServices .content .insta h6 {
+  color: #000;
+  margin: 0;
+}
+
+.InstaServices .content .insta img {
+  margin-right: 15px;
+  width: 40px;
+}
+
+.InstaServices .content .insta .arrow {
+  width: 15px;
+  margin-left: 55px;
+}
+/*# sourceMappingURL=Insta.css.map */

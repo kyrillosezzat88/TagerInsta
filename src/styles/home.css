@@ -2,6 +2,12 @@
 /*import general */
 /*General style for All app */
 /*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
 /*Style Nav bar*/
 .Home {
   background-color: #FAF9F7;
@@ -15,11 +21,16 @@
   background-color: #CE2E2E;
   color: #fff;
   padding: 10px 0px;
+  font-family: SnBook;
 }
 
 .Home nav img {
   width: 25px;
   cursor: pointer;
+}
+
+.Home nav .backimg {
+  width: 18px;
 }
 
 .Home nav p {
@@ -74,8 +85,8 @@
   padding: 30px;
   margin-top: 30px;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 0px 15px 0px #eee;
-          box-shadow: 0px 0px 15px 0px #eee;
+  -webkit-box-shadow: 0px 0px 15px 3px #eee;
+          box-shadow: 0px 0px 15px 3px #eee;
 }
 
 .Home .content a div img {
@@ -143,28 +154,71 @@
 }
 
 .Home .modal .modal-header {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #ddd;
 }
 
 .Home .modal .modal-body {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #ddd;
 }
 
 .Home .modal .modal-body h5 {
   color: #CE2E2E;
 }
 
+.Home .modal .modal-body div {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Home .modal .modal-body div input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Home .modal .modal-body div .checkmark {
+  position: absolute;
+  top: 9%;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.Home .modal .modal-body div input:checked ~ .checkmark {
+  background-color: #314055;
+}
+
+.Home .modal .modal-body div .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.Home .modal .modal-body div input:checked ~ .checkmark:after {
+  display: block;
+}
+
 .Home .modal .modal-body img {
-  margin-left: 25px;
-  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
   width: 110px;
 }
 
 .Home .modal .modal-footer h5 {
   color: #CE2E2E;
-  -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 10px;
 }
 
 .Home .modal .modal-footer input {

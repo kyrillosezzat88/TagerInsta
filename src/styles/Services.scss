@@ -1,0 +1,36 @@
+/*import general */
+@import 'General';
+
+.Services{
+    background-color:$contentColor;
+    height:100vh;
+    nav{
+        @include navbar();
+    }
+    .content{
+        margin: 30px 0;
+        h5{
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color:$linkColor !important;
+            div{
+                background-color: $color;
+                padding:30px 20px;
+                margin-top: 30px;
+                border-radius: 12px;
+                box-shadow: 0px 0px 15px 3px $shadowColor;
+                height: 180px;
+                img{
+                    width: 50%;
+                    margin-bottom: 10px;
+                }
+                &:hover{
+                    opacity: .3;
+                }
+            }
+        }
+        
+    }
+}

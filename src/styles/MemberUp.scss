@@ -1,0 +1,35 @@
+/*import general */
+@import 'General';
+
+.MemberUp{
+    background-color:$contentColor;
+    height:100vh;
+    nav{
+        @include navbar();
+    }
+    .head{
+        
+        padding: 20px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #000;
+    }
+    .info {
+        div{
+            margin-bottom: 20px;
+            img{
+                margin-right: 10px;
+            }
+        }
+        .top{margin-bottom: 60px;}
+    }
+    button{
+        background: $mainColor;
+        border:none;
+        color:$color;
+        padding: 5px 15px;
+        border-radius: 8px;
+        outline: none;
+        cursor: pointer;
+        margin-top:50px;
+    }
+}

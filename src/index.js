@@ -5,8 +5,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js';
+import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap';
-
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
