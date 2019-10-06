@@ -2,11 +2,7 @@
 @import 'General';
 
 .MemberUp{
-    background-color:$contentColor;
-    height:100vh;
-    nav{
-        @include navbar();
-    }
+    @include Page();
     .head{
         
         padding: 20px 0;

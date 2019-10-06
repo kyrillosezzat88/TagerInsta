@@ -1,33 +1,53 @@
 import React from 'react';
-import Home from '../images/home.png'
-import Back from '../images/back_en.png'
 import {Link} from 'react-router-dom';
 import '../styles/InstaFollower.css'
+import Navbar from './Navbar'
 
 const InstaFollower = ()=>{
     return(
         <div className="InstaFollower">
-            {/*Start navbar  */}
-            <nav>
-                <div className='container'>
-                    <div className=' d-flex justify-content-between align-items-center'>
-                      <Link  to='/Services'><img className='backimg' src={Back} alt='back'/></Link>
-                        <p>Tager insta</p>
-                        <Link to='/Home'><img src={Home} alt='home'/></Link>
-                    </div>
-                </div>
-            </nav>
-            {/* end navbar */}
+            {/* navbar */}
+            <Navbar  back={'/InstaServices'}/>
             {/*Start Content */}
             <div className="content">
                 <div className="container">
                     <h5>Arab Mix Instagram Followers</h5>
                     <p>inactive followers (Real), 10 Day Refill</p>
-                    <div className="info d-flex justify-content-around align-items-center">
-                        <h6>Quantity 1K</h6>
-                        <h6 className='blance'>10 KWD</h6>
-                        <button>Select</button>
+                    <div className="row">
+                        <div className="col-12 col-md-4">
+                            <div className="info">
+                                <div className=" d-inline-block">
+                                    <h6 className="d-inline-block">Quantity 1K</h6>
+                                    <h6 className='blance d-inline-block'><span>10</span> KWD</h6>
+                                </div>
+                                <Link to='/FeatureDetails'><button className="btn">Select</button></Link>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <div className="info">
+                                <div className=" d-inline-block">
+                                    <h6 className="d-inline-block">Quantity 1K</h6>
+                                    <h6 className='blance d-inline-block'><span>10</span> KWD</h6>
+                                </div>
+                                <Link to='/FeatureDetails'><button className="btn">Select</button></Link>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <div className="info">
+                                <div className=" d-inline-block">
+                                    <h6 className="d-inline-block">Quantity 1K</h6>
+                                    <h6 className='blance d-inline-block'><span>10</span> KWD</h6>
+                                </div>
+                                <Link to='/FeatureDetails'><button className="btn">Select</button></Link>
+                            </div>
+                        </div>
                     </div>
+                   <div className="note">
+                        <h5>Note</h5>
+                        <h6>24 hours start time</h6>
+                        <h6>Make sure your account in public not private when you order servies</h6>
+                        <h6>The maxmum per account its 3000 followers</h6>
+                   </div>
                 </div>
             </div>
             {/*End Content */}

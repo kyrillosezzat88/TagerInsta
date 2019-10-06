@@ -1,0 +1,23 @@
+import React from 'react';
+import success from '../images/success_icon.png';
+import '../styles/Success.css'
+const Success = ()=>{
+    return(
+        <div className="modal" id="success" >
+            <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="modal-header d-flex justify-content-center align-item-center">
+                    <img className="model-title" src={success} width="50px"/>
+                </div>
+                <div className="modal-body sucessbody">
+                <h6 className="text-center">Success Order Creared</h6>
+                </div>
+                <div className="modal-footer d-flex justify-content-center align-item-center flex-column">
+                    <button>ok</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default Success;

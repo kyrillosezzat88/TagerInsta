@@ -7,30 +7,11 @@
   src: url("/src/styles/fonts/GE Snd Book.ttf");
 }
 
-/*Style Nav bar*/
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
 .Services {
   background-color: #FAF9F7;
   height: 100vh;
-}
-
-.Services nav {
-  background-color: #CE2E2E;
-  color: #fff;
-  padding: 10px 0px;
-  font-family: SnBook;
-}
-
-.Services nav img {
-  width: 25px;
-  cursor: pointer;
-}
-
-.Services nav .backimg {
-  width: 18px;
-}
-
-.Services nav p {
-  margin: 0;
 }
 
 .Services .content {
@@ -48,17 +29,27 @@
 
 .Services .content a div {
   background-color: #fff;
-  padding: 30px 20px;
   margin-top: 30px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 0px 15px 3px #eee;
           box-shadow: 0px 0px 15px 3px #eee;
-  height: 180px;
+  padding: 5px;
 }
 
-.Services .content a div img {
-  width: 50%;
+.Services .content a div .img {
+  width: 80px;
+  min-height: 90px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Services .content a div .img img {
+  width: 100%;
   margin-bottom: 10px;
+}
+
+.Services .content a div p {
+  padding-bottom: 20px;
 }
 
 .Services .content a div:hover {

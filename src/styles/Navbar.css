@@ -1,0 +1,30 @@
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+nav {
+  background-color: #CE2E2E;
+  color: #fff;
+  padding: 10px 0px;
+  font-family: SnBook;
+}
+
+nav img {
+  width: 25px;
+  cursor: pointer;
+}
+
+nav .backimg {
+  width: 18px;
+}
+
+nav p {
+  margin: 0;
+}
+/*# sourceMappingURL=Navbar.css.map */

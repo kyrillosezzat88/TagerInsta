@@ -7,30 +7,11 @@
   src: url("/src/styles/fonts/GE Snd Book.ttf");
 }
 
-/*Style Nav bar*/
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
 .Register {
   background-color: #FAF9F7;
   height: 100vh;
-}
-
-.Register nav {
-  background-color: #CE2E2E;
-  color: #fff;
-  padding: 10px 0px;
-  font-family: SnBook;
-}
-
-.Register nav img {
-  width: 25px;
-  cursor: pointer;
-}
-
-.Register nav .backimg {
-  width: 18px;
-}
-
-.Register nav p {
-  margin: 0;
 }
 
 .Register .head {
@@ -103,7 +84,9 @@
   background: #31A67A;
   color: #fff;
   padding: 5px 35px;
-  border-radius: 8px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
 }
 
 .Register input.form-control:focus,

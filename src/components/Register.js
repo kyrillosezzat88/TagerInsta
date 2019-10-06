@@ -1,24 +1,15 @@
 import React from 'react';
 import '../styles/Register.css';
-import Home from '../images/home.png'
-import Back from '../images/back_en.png'
 import {Link} from 'react-router-dom'
 import paypal from '../images/paypal.png'
 import visa from '../images/myFatorah.png'
+import Navbar from './Navbar'
 
 const Register = ()=>{
     return(
         <div className="Register">
             {/*Start Navbar  */}
-            <nav>
-                <div className='container'>
-                    <div className=' d-flex justify-content-between align-items-center'>
-                      <Link  to='/MemberUp'><img className='backimg' src={Back} alt='back'/></Link>
-                        <p>Tager insta</p>
-                        <Link to='/Home'><img src={Home} alt='home'/></Link>
-                    </div>
-                </div>
-            </nav>
+            <Navbar back={'/MemberUp'} />
             {/*End Navbar  */}
             {/*Start Content  */}
             <div className="content">
@@ -29,19 +20,19 @@ const Register = ()=>{
                     </div>
                     <form>
                         <div className="form-group">
-                            <label for="exampleInputEmail1">Usernmae</label>
+                            <label htmlFor="exampleInputEmail1">Usernmae</label>
                             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usernmae"/>
                         </div>
                         <div className="form-group">
-                            <label for="exampleInputPassword1">Email</label>
+                            <label htmlFor="exampleInputPassword1">Email</label>
                             <input type="email" className="form-control" id="exampleInputPassword1" placeholder="email@domin.com"/>
                         </div>
                         <div className="form-group">
-                            <label for="exampleInputPassword1">Phone</label>
+                            <label htmlFor="exampleInputPassword1">Phone</label>
                             <input type="text" className="form-control" id="exampleInputPassword1" placeholder="000000000"/>
                         </div>
                         <div className="form-group">
-                            <label for="exampleInputPassword1">Password</label>
+                            <label htmlFor="exampleInputPassword1">Password</label>
                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="your password"/>
                         </div>
                         <div className='payment'>

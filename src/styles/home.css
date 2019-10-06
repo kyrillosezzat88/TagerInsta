@@ -8,33 +8,13 @@
   src: url("/src/styles/fonts/GE Snd Book.ttf");
 }
 
-/*Style Nav bar*/
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
 .Home {
   background-color: #FAF9F7;
   height: 100vh;
   /*style Content */
   /*Style Menu*/
-  /*payment popoup*/
-}
-
-.Home nav {
-  background-color: #CE2E2E;
-  color: #fff;
-  padding: 10px 0px;
-  font-family: SnBook;
-}
-
-.Home nav img {
-  width: 25px;
-  cursor: pointer;
-}
-
-.Home nav .backimg {
-  width: 18px;
-}
-
-.Home nav p {
-  margin: 0;
 }
 
 .Home .info {
@@ -82,16 +62,26 @@
 
 .Home .content a div {
   background-color: #fff;
-  padding: 30px;
   margin-top: 30px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 0px 15px 3px #eee;
           box-shadow: 0px 0px 15px 3px #eee;
+  height: 90%;
 }
 
-.Home .content a div img {
+.Home .content a div .img {
+  -webkit-box-shadow: none;
+          box-shadow: none;
   width: 50%;
-  margin-bottom: 10px;
+  height: 100%;
+}
+
+.Home .content a div .img img {
+  width: 95%;
+}
+
+.Home .content a div p {
+  padding-bottom: 25px;
 }
 
 .Home .menu {
@@ -138,112 +128,5 @@
 
 .Home .menu ul li a {
   font-size: 20px;
-}
-
-.Home .modal .modal-dialog {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) !important;
-          transform: translate(-50%, -50%) !important;
-  width: 80%;
-}
-
-.Home .modal .modal-dialog .modal-content {
-  border-radius: 18px;
-}
-
-.Home .modal .modal-header {
-  border-bottom: 1px solid #ddd;
-}
-
-.Home .modal .modal-body {
-  border-bottom: 1px solid #ddd;
-}
-
-.Home .modal .modal-body h5 {
-  color: #CE2E2E;
-}
-
-.Home .modal .modal-body div {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.Home .modal .modal-body div input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.Home .modal .modal-body div .checkmark {
-  position: absolute;
-  top: 9%;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  border: 1px solid #000;
-  border-radius: 50%;
-}
-
-.Home .modal .modal-body div input:checked ~ .checkmark {
-  background-color: #314055;
-}
-
-.Home .modal .modal-body div .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.Home .modal .modal-body div input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.Home .modal .modal-body img {
-  margin-left: 5px;
-  margin-bottom: 15px;
-  width: 110px;
-}
-
-.Home .modal .modal-footer h5 {
-  color: #CE2E2E;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  margin-bottom: 10px;
-}
-
-.Home .modal .modal-footer input {
-  padding: 5px 15px;
-  width: 300px;
-  border: 1px solid #000;
-  border-radius: 5px;
-}
-
-.Home .modal .modal-footer p {
-  margin-bottom: 20px !important;
-}
-
-.Home .modal .modal-footer p span {
-  color: #CE2E2E;
-}
-
-.Home .modal .modal-footer button {
-  background: #31A67A;
-  border: none;
-  padding: 8px 35px;
-  outline: none;
-  cursor: pointer;
-  border-radius: 18px;
-  color: #fff;
-  margin: 0;
 }
 /*# sourceMappingURL=home.css.map */

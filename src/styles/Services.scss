@@ -2,11 +2,7 @@
 @import 'General';
 
 .Services{
-    background-color:$contentColor;
-    height:100vh;
-    nav{
-        @include navbar();
-    }
+    @include Page();
     .content{
         margin: 30px 0;
         h5{
@@ -17,14 +13,22 @@
             color:$linkColor !important;
             div{
                 background-color: $color;
-                padding:30px 20px;
                 margin-top: 30px;
                 border-radius: 12px;
                 box-shadow: 0px 0px 15px 3px $shadowColor;
-                height: 180px;
-                img{
-                    width: 50%;
-                    margin-bottom: 10px;
+                padding: 5px;
+                .img{
+                    width: 80px;
+                    min-height: 90px;
+                    box-shadow:none;
+                    img{
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                  
+                }
+                p{
+                    padding-bottom:20px;
                 }
                 &:hover{
                     opacity: .3;

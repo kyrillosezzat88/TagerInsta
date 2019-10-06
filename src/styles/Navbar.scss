@@ -1,0 +1,17 @@
+@import 'General';
+nav{
+    background-color: $mainColor;
+    color:$color;
+    padding:10px 0px;
+    font-family: SnBook;
+    img{
+        width: 25px;
+        cursor: pointer;
+    }
+    .backimg{
+        width: 18px;
+    }
+    p{
+        margin:0;
+    }
+}

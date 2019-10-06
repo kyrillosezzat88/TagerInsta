@@ -1,0 +1,55 @@
+/*import General*/
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+.Order {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.Order .content {
+  margin-top: 30px;
+}
+
+.Order .content .btn {
+  border-radius: 8px;
+}
+
+.Order .content .data {
+  width: 100%;
+}
+
+@media all and (max-width: 720px) {
+  .Order .content .data {
+    overflow: scroll;
+  }
+}
+
+.Order .content .data table {
+  font-size: 12px;
+  margin-top: 30px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
+}
+
+.Order .content .data table tr th {
+  border-right: 2px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.Order .content .data table tr td {
+  border: 2px solid #ddd;
+  border-left: 0;
+  padding: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=Order.css.map */

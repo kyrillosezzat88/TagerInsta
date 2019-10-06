@@ -7,30 +7,11 @@
   src: url("/src/styles/fonts/GE Snd Book.ttf");
 }
 
-/*Style Nav bar*/
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
 .InstaServices {
   background-color: #FAF9F7;
   height: 100vh;
-}
-
-.InstaServices nav {
-  background-color: #CE2E2E;
-  color: #fff;
-  padding: 10px 0px;
-  font-family: SnBook;
-}
-
-.InstaServices nav img {
-  width: 25px;
-  cursor: pointer;
-}
-
-.InstaServices nav .backimg {
-  width: 18px;
-}
-
-.InstaServices nav p {
-  margin: 0;
 }
 
 .InstaServices .content {

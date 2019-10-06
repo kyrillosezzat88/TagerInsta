@@ -1,0 +1,55 @@
+/*improt General style*/
+@import 'General';
+
+.FeatureD{
+    @include Page();
+    nav{
+        margin-bottom: 20px;
+    }
+    .info{
+        background:$color;
+        margin-bottom: 20px;
+        padding: 20px;
+        margin-top:20px;
+        border-radius: 12px;
+       border:2px solid #ddd;
+       h5{margin:0;}
+       p{margin-bottom: 20px !important; color:#999;}
+       span{font-weight: bold;}
+        div{
+            margin-bottom: 10px;
+        }
+    }
+    .pay{
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        label{
+            position: absolute;
+            top: -28%;
+            left: 9%;
+            background:$contentColor;
+        }
+        input{
+            padding:10px 15px;
+            border:1px solid #999;
+            border-radius: 25px;
+            width: 100%;
+            outline: none;
+        }
+        
+    }
+    .btn{
+        button{
+            @include PayButton();
+            margin-bottom: 20px;
+        }
+        h6{color:blue;}
+    }
+     #success{
+        .sucessbody{
+           border:none !important;
+        }
+        
+     }
+}

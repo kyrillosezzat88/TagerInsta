@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,8BAA8B;AAE9B,oBAAoB;AAQpB,SAAS;AACT,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,wCAA0C;;;AAInD,gBAAgB;AAoDhB,0DAA0D;ADnE1D,AACI,QADI,CACJ,WAAW,CAAA;EACR,MAAM,EAAC,eAAe;CACxB",
+    "sources": [
+        "Success.scss",
+        "General.scss"
+    ],
+    "names": [],
+    "file": "Success.css"
+}

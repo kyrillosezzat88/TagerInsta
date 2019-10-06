@@ -1,0 +1,121 @@
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+.modal .modal-dialog {
+  width: 80%;
+}
+
+@media all and (max-width: 720px) {
+  .modal .modal-dialog {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) !important;
+            transform: translate(-50%, -50%) !important;
+  }
+}
+
+.modal .modal-dialog .modal-content {
+  border-radius: 18px;
+}
+
+.modal .modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal .modal-body {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal .modal-body h5 {
+  color: #CE2E2E;
+}
+
+.modal .modal-body div {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.modal .modal-body div input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.modal .modal-body div .checkmark {
+  position: absolute;
+  top: 9%;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.modal .modal-body div input:checked ~ .checkmark {
+  background-color: #314055;
+}
+
+.modal .modal-body div .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.modal .modal-body div input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.modal .modal-body img {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  width: 110px;
+}
+
+.modal .modal-footer h5 {
+  color: #CE2E2E;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+.modal .modal-footer input {
+  padding: 5px 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.modal .modal-footer p {
+  margin-bottom: 20px !important;
+}
+
+.modal .modal-footer p span {
+  color: #CE2E2E;
+}
+
+.modal .modal-footer button {
+  background: #31A67A;
+  border: none;
+  padding: 8px 35px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 18px;
+  color: #fff;
+  margin: 0;
+}
+/*# sourceMappingURL=PaymentPopup.css.map */

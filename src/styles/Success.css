@@ -8,4 +8,7 @@
 
 /* Style Page */
 /*Style Content of services (insta face twitter youtube)*/
-/*# sourceMappingURL=General.css.map */
+#success .sucessbody {
+  border: none !important;
+}
+/*# sourceMappingURL=Success.css.map */

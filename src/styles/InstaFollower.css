@@ -7,30 +7,11 @@
   src: url("/src/styles/fonts/GE Snd Book.ttf");
 }
 
-/*Style Nav bar*/
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
 .InstaFollower {
   background-color: #FAF9F7;
   height: 100vh;
-}
-
-.InstaFollower nav {
-  background-color: #CE2E2E;
-  color: #fff;
-  padding: 10px 0px;
-  font-family: SnBook;
-}
-
-.InstaFollower nav img {
-  width: 25px;
-  cursor: pointer;
-}
-
-.InstaFollower nav .backimg {
-  width: 18px;
-}
-
-.InstaFollower nav p {
-  margin: 0;
 }
 
 .InstaFollower .content h5 {
@@ -44,24 +25,50 @@
 }
 
 .InstaFollower .content .info {
-  padding: 10px;
-  border-radius: 12px;
-  -webkit-box-shadow: 0 0 5px 0px #eee;
-          box-shadow: 0 0 5px 0px #eee;
-  background: #fff;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
-.InstaFollower .content .info h6 {
+.InstaFollower .content .info div {
+  padding: 15px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
+  background: #fff;
+  width: 80%;
+}
+
+.InstaFollower .content .info div h6 {
   margin: 0;
 }
 
-.InstaFollower .content .info .blance {
+.InstaFollower .content .info div .blance {
   border-left: 1px solid #000;
   padding-left: 10px;
+  margin-left: 80px;
 }
 
-.InstaFollower .content .info button {
+.InstaFollower .content .info div span {
+  color: #CE2E2E;
+}
+
+.InstaFollower .content .info .btn {
   background: #314055;
   border: none;
+  padding: 20px 15px 15px 15px;
+  color: #fff;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 20%;
+}
+
+.InstaFollower .content .note h5 {
+  margin-bottom: 20px;
+}
+
+.InstaFollower .content .note h6 {
+  color: #CE2E2E;
+  margin: 10px 0;
 }
 /*# sourceMappingURL=InstaFollower.css.map */

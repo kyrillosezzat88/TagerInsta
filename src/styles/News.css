@@ -1,0 +1,50 @@
+/*import globle*/
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+.News {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.News .content {
+  margin-top: 30px;
+}
+
+.News .content .card {
+  margin-top: 20px;
+  background: #fff !important;
+  border-radius: 18px;
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
+}
+
+.News .content .card .card-header {
+  background: #fff;
+  border-radius: 18px;
+}
+
+.News .content .card .card-header button {
+  background: #31A67A;
+  color: #fff;
+  border-radius: 22px;
+  border: none;
+  padding: 0px 15px;
+}
+
+.News .content .card .card-header span {
+  font-size: 12px;
+  color: #999;
+}
+
+.News .content .card .card-header p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=News.css.map */

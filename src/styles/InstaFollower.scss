@@ -1,11 +1,7 @@
 /*import general */
 @import 'General';
 .InstaFollower{
-    background-color:$contentColor;
-    height:100vh;
-    nav{
-        @include navbar();
-    }
+    @include Page();
     .content{
         h5{
             margin:0;
@@ -16,16 +12,35 @@
             font-size: 15px;
         }
         .info{
-            padding: 10px;
-            border-radius: 12px;
-            box-shadow: 0 0 5px 0px $shadowColor;
-            background: $color;
-            h6{margin: 0;}
-            .blance{border-left: 1px solid #000;padding-left: 10px;}
-            button{
-                background:#314055;
-                border:none
+            margin-bottom: 30px;
+            width: 100%;
+            div{
+                padding: 15px;
+                border-top-left-radius: 12px;
+                border-bottom-left-radius: 12px;
+                box-shadow: 0 0 5px 5px $shadowColor;
+                background: $color;
+                width: 80%;
+                h6{margin: 0}
+                .blance{border-left: 1px solid #000;padding-left: 10px; margin-left: 80px;}
+                span{color:$mainColor;}
             }
+        .btn{
+            background:#314055;
+            border:none;
+            padding: 20px 15px 15px 15px;
+            color:$color;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            width: 20%;
         }
+    }
+    .note{
+        h5{margin-bottom: 20px;}
+        h6{
+           color:$mainColor;
+           margin:10px 0; 
+        }
+    }
     }
 }

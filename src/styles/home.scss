@@ -4,12 +4,7 @@
 @import 'General';
 
 .Home{
-    background-color:$contentColor;
-    height:100vh;
-    //Navbar
-    nav{
-       @include navbar();
-    }
+    @include Page();
     // Informations section
     .info{
         padding: 30px 0 20px 0;
@@ -50,14 +45,20 @@
             color:$linkColor !important;
             div{
                 background-color: $color;
-                padding:30px;
                 margin-top: 30px;
                 border-radius: 12px;
                 box-shadow: 0px 0px 15px 3px $shadowColor;
-                img{
-                    width: 50%;
-                    margin-bottom: 10px;
+                height: 90%;
+                
+                .img{
+                    box-shadow: none;
+                    width:50%;
+                    height:100%;
+                    img{
+                        width: 95%;
+                    }
                 }
+                p{padding-bottom: 25px;}
             }
         }
     }
@@ -78,7 +79,6 @@
         .logout{
             border-bottom: 1px solid $color;
             padding:20px 0;
-           
             p{margin:0;padding: 0;}
             img{
                 width:40px;
@@ -97,57 +97,5 @@
                 }
             }
        }
-    }
-    /*payment popoup*/
-    .modal{
-       
-        .modal-dialog{
-           position: relative;
-           top: 50%;
-           left: 50%;
-           transform: translate(-50% , -50%) !important;
-           width: 80%;
-           .modal-content{
-               border-radius: 18px;
-           }
-        }
-        .modal-header{
-            border-bottom: 1px solid #ddd;
-        }
-        .modal-body{
-            border-bottom: 1px solid #ddd;
-            h5{color:$mainColor;}
-            div{
-              @include CheckBox();
-            }
-            img{
-                margin-left: 5px;
-                margin-bottom: 15px;
-                width: 110px;
-            }
-        }
-        .modal-footer{
-            h5{color: $mainColor;align-self: flex-start;margin-bottom: 10px;}
-            input{
-                padding:5px 15px;
-                width: 300px;
-                border:1px solid #000;
-                border-radius: 5px;
-            }
-            p{
-                margin-bottom: 20px !important;
-                span{color:$mainColor;}
-            }
-            button{
-                background:$buttonColor;
-                border: none;
-                padding:8px 35px;
-                outline: none;
-                cursor: pointer;
-                border-radius: 18px;
-                color:$color;
-                margin: 0;
-            }
-        }
     }
 }

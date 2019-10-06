@@ -10,10 +10,7 @@ import Support from '../images/support.png'
 import Report from '../images/report.png'
 import Logout from '../images/logout.png'
 import userEdit from '../images/userEdit.png'
-import paypal from '../images/paypal.png'
-import visa from '../images/myFatorah.png'
-import Close from '../images/close_payment_popup.png'
-
+import PaymentPopUp from './PaymentPopup'
 class Home extends Component{
     //Function to open menu and when click on it will prevent body function
     handelMenu = (e)=>{
@@ -21,12 +18,17 @@ class Home extends Component{
         menu.style.left = '0%';
         e.stopPropagation();
     }
-    //  //Function To close side menu when click on any part of page
-    // componentDidMount(){
-    //     document.body.onclick = ()=>{
-    //         document.getElementsByClassName('menu')[0].style.left = '-100%';
-    //     }
-    // }
+     //Function To close side menu when click on any part of page
+    componentDidMount(){
+        document.body.onclick = ()=>{
+            return document.getElementsByClassName('menu')[0].style.left = '-100%';
+        }
+    }
+    componentWillUnmount(){
+        document.body.onclick = ()=>{
+           return null;
+        }
+    }
     render(){
         return(
             <div className='Home'>
@@ -52,7 +54,6 @@ class Home extends Component{
                         </div>
                       </div>
                     </div>
-
                 </nav>
                 {/* End NavBar*/}
                 {/* Start Content Home Page */}
@@ -60,36 +61,34 @@ class Home extends Component{
                     <div className='container'>
                         <p className='text-center'><span>Tager insta </span>All Social Networking Services</p>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col-6 col-md-3'>
                                 <Link to='/Services'>
                                     <div className='service d-flex justify-content-center align-items-center flex-column'>
-                                        <img src={Service} alt ='Serive' />
+                                        <div className='img'><img src={Service} alt ='Serive' /></div>
                                         <p>Service</p>
                                     </div>
                                 </Link>
                             </div>
-                            <div className='col-6'>
-                                <Link>
-                                    <div className='News d-flex justify-content-center align-items-center flex-column'>
-                                        <img src={News} alt ='News' />
+                            <div className='col-6 col-md-3'>
+                                <Link to="/News">
+                                    <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                       <div className="img"> <img src={News} alt ='News' /></div>
                                         <p>News</p>
                                     </div>
                                 </Link>
                             </div>
-                        </div>
-                        <div className='row'>
-                            <div className='col-6'>
-                                <Link>
+                            <div className='col-6 col-md-3'>
+                                <Link to='/Order'>
                                     <div className='Support d-flex justify-content-center align-items-center flex-column'>
-                                        <img src={Report} alt ='Serive' />
+                                       <div className="img"> <img src={Report} alt ='Serive' /></div>
                                         <p>Orders</p>
                                     </div>
                                 </Link>
                             </div>
-                            <div className='col-6'>
+                            <div className='col-6 col-md-3'>
                                 <Link>
                                     <div className='Report d-flex justify-content-center align-items-center flex-column'>
-                                        <img src={Support} alt ='News' />
+                                       <div className='img'> <img src={Support} alt ='News' /></div>
                                         <p>Support</p>
                                     </div>
                                 </Link>
@@ -123,38 +122,7 @@ class Home extends Component{
                 </div>
                 {/* End Menu */}
                 {/* Start Pop up Payment */}
-                <div className="modal" id="myModal" >
-                    <div className="modal-dialog">
-                        <div className="modal-content">
-
-                      
-                        <div className="modal-header">
-                            <h5 className="modal-title">Add balance</h5>
-                            <button type="button" className="close" data-dismiss="modal"><img src={Close} width='20px'/></button>
-                        </div>
-                        <div className="modal-body">
-                           <h5>Choose Payment type</h5>
-                           <div>
-                               <input type='radio' name='payment' id='paypal'/>
-                               <label htmlFor='paypal'><img src={paypal}  alt='paypal'/></label>
-                               <span className="checkmark"></span>
-                           </div>
-                           <div>
-                               <input type='radio' name='payment' id='visa'/>
-                               <label htmlFor='visa'><img src={visa} alt='visa'/></label>
-                               <span className="checkmark"></span>
-                           </div>
-                        </div>
-                        <div className="modal-footer d-flex justify-content-center align-item-center flex-column">
-                            <h5>Input amount</h5>
-                            <input type='text' placeholder='amount with KWD'/>
-                            <p>Must amount biger than <span>10 KWD</span></p>
-                            <button>pay</button>
-                        </div>
-
-                        </div>
-                    </div>
-                    </div>
+                <PaymentPopUp />
                 {/*End Pop up Payment */}
             </div>
         )
