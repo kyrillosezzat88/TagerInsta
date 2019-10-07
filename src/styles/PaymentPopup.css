@@ -9,7 +9,7 @@
 /* Style Page */
 /*Style Content of services (insta face twitter youtube)*/
 .modal .modal-dialog {
-  width: 80%;
+  width: 30%;
 }
 
 @media all and (max-width: 720px) {
@@ -19,6 +19,7 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%) !important;
             transform: translate(-50%, -50%) !important;
+    width: 80%;
   }
 }
 
@@ -102,6 +103,7 @@
 
 .modal .modal-footer p {
   margin-bottom: 20px !important;
+  font-size: 12px;
 }
 
 .modal .modal-footer p span {

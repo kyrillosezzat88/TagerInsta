@@ -4,6 +4,9 @@
 
 .Register{
     @include Page();
+    .content{
+        background: $contentColor;
+    }
     .head{
         padding:30px 0;
         p{
@@ -26,6 +29,7 @@
         }
         .btn{
           @include PayButton();
+          margin-bottom: 32px;
         }
     }
    

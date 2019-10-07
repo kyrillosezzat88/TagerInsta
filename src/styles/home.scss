@@ -70,12 +70,15 @@
         left:-100%;
         background-image: url('../images/drawer_back.png');
         background-size: cover;
-        width:65%;
         overflow: hidden;
         transition: all .5s ease-in-out;
         height: 100%;
         padding-top: 50px;
         color:$color;
+        width:35%;
+        @media all and (max-width:720px){
+            width:65%;
+        }
         .logout{
             border-bottom: 1px solid $color;
             padding:20px 0;

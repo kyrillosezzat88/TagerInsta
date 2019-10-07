@@ -1,8 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import '../styles/FeatureDetails.css'
-import  Success from './Success'
-import Payment from './PaymentPopup'
 import Navbar from './Navbar'
 
 const FeatureDetails = ()=>{
@@ -39,13 +36,6 @@ const FeatureDetails = ()=>{
                 </div>
             </div>
             {/*End Content*/}
-                {/* Start Pop up Payment */}
-                <Payment/>
-                {/*End Pop up Payment */}
-                {/* Start Pop up sucess pay */}
-                <Success />
-                {/*End Pop up sucess pay  */}
-               
         </div>
     )
 }

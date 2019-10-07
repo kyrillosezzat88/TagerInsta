@@ -10,7 +10,6 @@ import Support from '../images/support.png'
 import Report from '../images/report.png'
 import Logout from '../images/logout.png'
 import userEdit from '../images/userEdit.png'
-import PaymentPopUp from './PaymentPopup'
 class Home extends Component{
     //Function to open menu and when click on it will prevent body function
     handelMenu = (e)=>{
@@ -64,7 +63,7 @@ class Home extends Component{
                             <div className='col-6 col-md-3'>
                                 <Link to='/Services'>
                                     <div className='service d-flex justify-content-center align-items-center flex-column'>
-                                        <div className='img'><img src={Service} alt ='Serive' /></div>
+                                        <div className='img d-flex justify-content-center align-items-center'><img src={Service} alt ='Serive' /></div>
                                         <p>Service</p>
                                     </div>
                                 </Link>
@@ -72,7 +71,7 @@ class Home extends Component{
                             <div className='col-6 col-md-3'>
                                 <Link to="/News">
                                     <div className=' d-flex justify-content-center align-items-center flex-column'>
-                                       <div className="img"> <img src={News} alt ='News' /></div>
+                                       <div className="img d-flex justify-content-center align-items-center"> <img src={News} alt ='News' /></div>
                                         <p>News</p>
                                     </div>
                                 </Link>
@@ -80,15 +79,15 @@ class Home extends Component{
                             <div className='col-6 col-md-3'>
                                 <Link to='/Order'>
                                     <div className='Support d-flex justify-content-center align-items-center flex-column'>
-                                       <div className="img"> <img src={Report} alt ='Serive' /></div>
+                                       <div className="img d-flex justify-content-center align-items-center"> <img src={Report} alt ='Serive' /></div>
                                         <p>Orders</p>
                                     </div>
                                 </Link>
                             </div>
                             <div className='col-6 col-md-3'>
-                                <Link>
+                                <Link to='/Support'>
                                     <div className='Report d-flex justify-content-center align-items-center flex-column'>
-                                       <div className='img'> <img src={Support} alt ='News' /></div>
+                                       <div className='img d-flex justify-content-center align-items-center'> <img src={Support} alt ='News' /></div>
                                         <p>Support</p>
                                     </div>
                                 </Link>
@@ -121,9 +120,7 @@ class Home extends Component{
                     </div>
                 </div>
                 {/* End Menu */}
-                {/* Start Pop up Payment */}
-                <PaymentPopUp />
-                {/*End Pop up Payment */}
+              
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Welcome from './components/welcome';
-import {BrowserRouter , Route , Switch} from 'react-router-dom'
+import {BrowserRouter , Route , Switch, HashRouter} from 'react-router-dom'
 import Home from './components/Home';
 import MemberUp from './components/MemberUp'
 import Register from './components/Register'
@@ -10,10 +10,13 @@ import InstaFollower from './components/InstaFollower'
 import FeatureDetails from './components/FeatureDetails'
 import News from './components/News'
 import Order from './components/Order'
+import Support from './components/Support'
+import PaymentPopUp from './components/PaymentPopup'
+import Success from './components/Success'
 class App extends Component{
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           
           <Switch>
@@ -27,13 +30,16 @@ class App extends Component{
             <Route path='/FeatureDetails' component={FeatureDetails}/>
             <Route path='/News' component={News}/>
             <Route path='/Order' component={Order}/>
+            <Route path='/Support' component={Support}/>
           </Switch>
+          <PaymentPopUp />
+          <Success />
         </div>
-      </BrowserRouter>
+      </HashRouter>
       
     );
   }
- 
+
 }
 
 export default App;

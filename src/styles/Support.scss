@@ -1,0 +1,20 @@
+@import 'General';
+
+.Support{
+    @include Page();
+    .content{
+        margin-top: 30px;
+        .info{
+            margin-top: 30px;
+            background:$color;
+            padding: 10px;
+            box-shadow: 0 0 5px 5px $shadowColor;
+            border-radius: 12px;
+            .date{
+                border-left: 2px solid #ddd;
+                padding-left: 20px;
+                button{margin-left: 10px;}
+            }
+        }
+    }
+}

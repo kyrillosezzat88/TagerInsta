@@ -48,7 +48,7 @@ const Register = ()=>{
                                <span className="checkmark"></span>
                            </div>
                         </div>
-                        <Link className="d-flex justify-content-center flex-column align-items-center"><p><span>30</span>KWD</p><button type="submit" className="btn">Pay</button></Link>
+                        <Link className="d-flex justify-content-center flex-column align-items-center"><p><span>30</span>KWD</p><button type="submit" className="btn" data-toggle="modal" data-target="#success">Pay</button></Link>
                     </form>
                 </div>
             </div>

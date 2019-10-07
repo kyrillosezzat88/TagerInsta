@@ -33,6 +33,7 @@
 }
 
 .Order .content .data table {
+  width: 100%;
   font-size: 12px;
   margin-top: 30px;
   background: #fff;
