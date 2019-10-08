@@ -13,6 +13,11 @@ import Order from './components/Order'
 import Support from './components/Support'
 import PaymentPopUp from './components/PaymentPopup'
 import Success from './components/Success'
+import CurrentTicket from './components/CurrentTicket'
+import CreateTicket from './components/CreateTicket'
+import PaymentHist from './components/PaymentHistory'
+import About from './components/About'
+import Policy from './components/Policy'
 class App extends Component{
   render(){
     return (
@@ -31,6 +36,11 @@ class App extends Component{
             <Route path='/News' component={News}/>
             <Route path='/Order' component={Order}/>
             <Route path='/Support' component={Support}/>
+            <Route path='/CurrentTicket' component={CurrentTicket}/>
+            <Route path='/CreateTicket' component={CreateTicket}/>
+            <Route path='/PaymentHist' component={PaymentHist}/>
+            <Route path='/About' component={About}/>
+            <Route path='/Policy' component={Policy}/>
           </Switch>
           <PaymentPopUp />
           <Success />

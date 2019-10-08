@@ -1,0 +1,11 @@
+@import 'General';
+
+.About{
+    @include Page();
+    .content{
+        margin:30px 0;
+        p:nth-child(2){
+            padding:40px 20px;
+        }
+    }
+}

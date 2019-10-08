@@ -1,4 +1,3 @@
-/*import general */
 /*General style for All app */
 /*Viraiable colors*/
 /*Fonts*/
@@ -26,40 +25,16 @@ input[type=number]:focus,
   outline: none;
 }
 
-.InstaServices {
+.About {
   background-color: #FAF9F7;
   height: 100vh;
 }
 
-.InstaServices .content {
+.About .content {
   margin: 30px 0;
 }
 
-.InstaServices .content h5 {
-  margin-bottom: 40px;
+.About .content p:nth-child(2) {
+  padding: 40px 20px;
 }
-
-.InstaServices .content .insta {
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
-  background: #fff;
-  border-radius: 12px;
-  padding: 10px;
-  margin: 15px 0;
-}
-
-.InstaServices .content .insta h6 {
-  color: #000;
-  margin: 0;
-}
-
-.InstaServices .content .insta img {
-  margin-right: 15px;
-  width: 40px;
-}
-
-.InstaServices .content .insta .arrow {
-  width: 15px;
-  margin-left: 55px;
-}
-/*# sourceMappingURL=Insta.css.map */
+/*# sourceMappingURL=About.css.map */

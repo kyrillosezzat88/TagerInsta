@@ -8,6 +8,23 @@
 
 /* Style Page */
 /*Style Content of services (insta face twitter youtube)*/
+/*Edit bootstrap Form*/
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
 .Support {
   background-color: #FAF9F7;
   height: 100vh;
@@ -17,13 +34,18 @@
   margin-top: 30px;
 }
 
+.Support .content .Ctiket {
+  margin: 25px 0;
+  border-radius: 12px;
+}
+
 .Support .content .info {
-  margin-top: 30px;
   background: #fff;
   padding: 10px;
   -webkit-box-shadow: 0 0 5px 5px #eee;
           box-shadow: 0 0 5px 5px #eee;
   border-radius: 12px;
+  margin-bottom: 25px;
 }
 
 .Support .content .info .date {
@@ -33,5 +55,6 @@
 
 .Support .content .info .date button {
   margin-left: 10px;
+  border-radius: 12px;
 }
 /*# sourceMappingURL=Support.css.map */

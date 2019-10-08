@@ -27,7 +27,10 @@
         label{
             position: absolute;
             top: -28%;
-            left: 9%;
+            left: 3%;
+            @media all and (max-width:720px) {
+                left:9%;
+            }
             background:$contentColor;
         }
         input{

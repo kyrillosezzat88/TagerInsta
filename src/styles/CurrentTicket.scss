@@ -1,0 +1,45 @@
+@import 'General';
+
+.CurrentTicket{
+    @include Page();
+    .content{
+        margin-top:30px;
+       .Mes{
+           margin-top:20px;
+           textarea{
+               resize: none;
+               width:100%;
+               height: 150px;
+               border:1px solid #ddd;
+               border-radius: 18px;
+               padding: 10px;
+               @media all and (max-width:720px) {
+                height: 110px;
+               }
+           }
+           button{
+               background: $mainColor;
+               color: $color;
+               padding:5px 30px;
+               border:none !important;
+               border-radius: 8px;
+               margin: 25px 0;
+               outline: none;
+           }
+       }
+       .preMes{
+            background:$color;
+            border-radius: 12px;
+            box-shadow: 0 0 5px 5px $shadowColor;
+            margin-bottom: 25px;
+            .head{
+                border-bottom: 1px solid #ddd;
+                padding:10px;
+                .date{color:#888;}
+            }
+            .body{
+                padding: 10px;
+            }
+       }
+    }
+}

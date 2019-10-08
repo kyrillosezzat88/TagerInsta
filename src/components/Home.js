@@ -111,11 +111,11 @@ class Home extends Component{
                         </div>
                         <ul>
                             <li><Link to="/Services">Services</Link></li>
-                            <li><Link>Payment History</Link></li>
-                            <li><Link>Order History</Link></li>
+                            <li><Link to='/PaymentHist'>Payment History</Link></li>
+                            <li><Link to='/Order'>Order History</Link></li>
                             <li><Link>Share App</Link></li>
-                            <li><Link>About App</Link></li>
-                            <li><Link>Usage Police</Link></li>
+                            <li><Link to='/About'>About App</Link></li>
+                            <li><Link to='Policy'>Usage Police</Link></li>
                         </ul>
                     </div>
                 </div>

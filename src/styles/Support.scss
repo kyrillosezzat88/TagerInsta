@@ -4,16 +4,23 @@
     @include Page();
     .content{
         margin-top: 30px;
+        .Ctiket{
+            margin:25px 0;
+            border-radius: 12px;
+        }
         .info{
-            margin-top: 30px;
             background:$color;
             padding: 10px;
             box-shadow: 0 0 5px 5px $shadowColor;
             border-radius: 12px;
+            margin-bottom: 25px;
             .date{
                 border-left: 2px solid #ddd;
                 padding-left: 20px;
-                button{margin-left: 10px;}
+                button{
+                    margin-left: 10px;
+                    border-radius: 12px;
+                }
             }
         }
     }
