@@ -1,0 +1,31 @@
+@import 'General';
+
+.ForgetPass{
+    @include Page();
+    .content{
+        height: 100vh;
+        img{
+            width: 180px;
+        }
+        p{
+            padding:5px !important;
+            font-size: 13px;
+        }
+        form{
+            margin-top: 25px;
+            width: 100%;
+            .log{
+                @include inputForm();
+            }
+            .btn{
+                @include ButtonForm();
+                padding: 5px 30px;
+                margin-top: 30px;
+             }
+             a{
+                color:$mainColor !important; 
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

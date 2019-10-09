@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../images/logo.png';
-import '../styles/welcome.css';
 import {Link} from 'react-router-dom';
 import English from '../images/en.png'
 import Arabic from '../images/ar.png'

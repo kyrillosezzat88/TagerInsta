@@ -25,6 +25,7 @@ input[type=number]:focus,
   outline: none;
 }
 
+/*Style Input in Registration and Login Form*/
 #success .sucessbody {
   border: none !important;
 }

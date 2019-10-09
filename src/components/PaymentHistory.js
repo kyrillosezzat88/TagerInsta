@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import '../styles/PaymentHis.css';
 const PaymentHist = ()=>{
     return(
         <div className='PaymentHis'>

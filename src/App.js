@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Welcome from './components/welcome';
-import {BrowserRouter , Route , Switch, HashRouter} from 'react-router-dom'
+import { Route , Switch, HashRouter} from 'react-router-dom';
+import './styles/AllSass.css';
 import Home from './components/Home';
 import MemberUp from './components/MemberUp'
 import Register from './components/Register'
@@ -18,6 +19,9 @@ import CreateTicket from './components/CreateTicket'
 import PaymentHist from './components/PaymentHistory'
 import About from './components/About'
 import Policy from './components/Policy'
+import Login from './components/Login'
+import ForgetPass from './components/ForgetPass'
+import CreateAccount from './components/CreateAccount'
 class App extends Component{
   render(){
     return (
@@ -41,6 +45,9 @@ class App extends Component{
             <Route path='/PaymentHist' component={PaymentHist}/>
             <Route path='/About' component={About}/>
             <Route path='/Policy' component={Policy}/>
+            <Route path='/Login' component={Login}/>
+            <Route path='/ForgetPass' component={ForgetPass}/>
+            <Route path='/CreateAccount' component={CreateAccount}/>
           </Switch>
           <PaymentPopUp />
           <Success />

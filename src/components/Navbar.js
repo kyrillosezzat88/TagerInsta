@@ -2,7 +2,6 @@ import React , {Component}from 'react';
 import {Link} from 'react-router-dom'
 import Home from '../images/home.png'
 import Back from '../images/back_en.png'
-import '../styles/Navbar.css'
 
 class Navbar extends Component{
     render(){

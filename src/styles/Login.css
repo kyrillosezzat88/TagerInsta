@@ -1,4 +1,3 @@
-/*improt General style*/
 /*General style for All app */
 /*Viraiable colors*/
 /*Fonts*/
@@ -27,48 +26,31 @@ input[type=number]:focus,
 }
 
 /*Style Input in Registration and Login Form*/
-.FeatureD {
+.Login {
   background-color: #FAF9F7;
   height: 100vh;
 }
 
-.FeatureD nav {
-  margin-bottom: 20px;
+.Login .content {
+  height: 100vh;
 }
 
-.FeatureD .info {
-  background: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 12px;
-  border: 2px solid #ddd;
+.Login .content img {
+  width: 180px;
 }
 
-.FeatureD .info h5 {
-  margin: 0;
+.Login .content form {
+  margin-top: 25px;
+  width: 100%;
 }
 
-.FeatureD .info p {
-  margin-bottom: 20px !important;
-  color: #999;
-}
-
-.FeatureD .info span {
-  font-weight: bold;
-}
-
-.FeatureD .info div {
-  margin-bottom: 10px;
-}
-
-.FeatureD .pay {
+.Login .content form .log {
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 15px 0;
+  width: 80%;
 }
 
-.FeatureD .pay label {
+.Login .content form .log label {
   position: absolute;
   top: -28%;
   left: 3%;
@@ -76,34 +58,37 @@ input[type=number]:focus,
 }
 
 @media all and (max-width: 720px) {
-  .FeatureD .pay label {
+  .Login .content form .log label {
     left: 9%;
   }
 }
 
-.FeatureD .pay input {
+.Login .content form .log input {
   padding: 10px 15px;
   border: 1px solid #999;
   border-radius: 25px;
   width: 100%;
   outline: none;
+  background-color: #FAF9F7;
 }
 
-.FeatureD .btn button {
-  background: #31A67A;
+.Login .content form .btn {
+  background-color: #CE2E2E;
   color: #fff;
-  padding: 5px 35px;
-  border-radius: 12px;
-  border: none;
+  border: none !important;
   outline: none;
+  cursor: pointer;
+  padding: 3px 20px;
+  border-radius: 18px;
   margin-bottom: 20px;
 }
 
-.FeatureD .btn h6 {
-  color: blue;
+.Login .content form a {
+  color: #999 !important;
+  margin-bottom: 35px;
 }
 
-.FeatureD #success .sucessbody {
-  border: none !important;
+.Login .content form a:nth-child(5) {
+  color: #CE2E2E !important;
 }
-/*# sourceMappingURL=FeatureDetails.css.map */
+/*# sourceMappingURL=Login.css.map */

@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import '../styles/Policy.css'
 const Policy = ()=>{
     return(
         <div className="Policy">
@@ -15,6 +14,7 @@ const Policy = ()=>{
                     </div>
                 </div>
             </div>
+            {/*End Content */}
         </div>
     )
 }

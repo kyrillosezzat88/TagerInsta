@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../styles/MemberUp.css';
 import Gold from '../images/gold.png'
 import True from '../images/true.png'
 import Navbar from './Navbar'

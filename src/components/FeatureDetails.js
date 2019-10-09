@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/FeatureDetails.css'
 import Navbar from './Navbar'
 
 const FeatureDetails = ()=>{

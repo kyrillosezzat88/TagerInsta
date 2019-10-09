@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Register.css';
 import {Link} from 'react-router-dom'
 import paypal from '../images/paypal.png'
 import visa from '../images/myFatorah.png'

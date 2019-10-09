@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Insta.css';
 import {Link} from 'react-router-dom';
 import Insta from '../images/insta.png';
 import Arrow from '../images/arrow_en.png'

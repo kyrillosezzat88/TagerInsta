@@ -1,0 +1,29 @@
+@import 'General';
+
+.Login{
+    @include Page();
+    .content{
+        height: 100vh;
+        img{
+            width: 180px;
+        }
+        form{
+            margin-top: 25px;
+            width: 100%;
+            .log{
+                @include inputForm();
+            }
+            .btn{
+               @include ButtonForm();
+            }
+            a{
+                color:#999 !important; 
+                margin-bottom: 35px;
+                &:nth-child(5){
+                    color:$mainColor !important;
+                }
+            }
+           
+        }
+    }
+}

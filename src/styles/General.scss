@@ -104,3 +104,39 @@ input[type=number]:focus,
   border: 1px solid #ced4da;
   outline:none;
 }
+
+
+/*Style Input in Registration and Login Form*/
+@mixin inputForm {
+    position: relative;
+    margin: 15px 0;
+    width: 80%;
+    label{
+        position: absolute;
+        top: -28%;
+        left: 3%;
+        @media all and (max-width:720px) {
+            left:9%;
+        }
+        background:$contentColor;
+    }
+    input{
+        padding:10px 15px;
+        border:1px solid #999;
+        border-radius: 25px;
+        width: 100%;
+        outline: none;
+        background-color: $contentColor;
+    }
+}
+// Button Form
+@mixin ButtonForm {
+  background-color: $mainColor;
+  color:$color;
+  border:none !important;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 20px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/News.css'
 import Navbar from './Navbar';
 import youtube from '../images/youtube.png'
 const News = ()=>{

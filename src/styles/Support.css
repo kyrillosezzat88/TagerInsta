@@ -25,6 +25,7 @@ input[type=number]:focus,
   outline: none;
 }
 
+/*Style Input in Registration and Login Form*/
 .Support {
   background-color: #FAF9F7;
   height: 100vh;

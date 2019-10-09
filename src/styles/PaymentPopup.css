@@ -25,6 +25,7 @@ input[type=number]:focus,
   outline: none;
 }
 
+/*Style Input in Registration and Login Form*/
 .modal .modal-dialog {
   width: 30%;
 }

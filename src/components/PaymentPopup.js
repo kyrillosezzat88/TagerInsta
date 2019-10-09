@@ -2,7 +2,6 @@ import React from 'react';
 import paypal from '../images/paypal.png'
 import visa from '../images/myFatorah.png'
 import Close from '../images/close_payment_popup.png'
-import '../styles/PaymentPopup.css'
 const PaymentPopUp = ()=>{
     return(
          

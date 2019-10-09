@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import '../styles/Order.css';
 import {Link} from 'react-router-dom';
 const Order = ()=>{
     return(

@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import {Link} from 'react-router-dom';
-import '../styles/Support.css'
 const Support = ()=>{
     return(
         <div className="Support">

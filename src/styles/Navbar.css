@@ -25,6 +25,7 @@ input[type=number]:focus,
   outline: none;
 }
 
+/*Style Input in Registration and Login Form*/
 nav {
   background-color: #CE2E2E;
   color: #fff;

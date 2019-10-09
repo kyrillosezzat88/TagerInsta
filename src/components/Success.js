@@ -1,6 +1,5 @@
 import React from 'react';
 import success from '../images/success_icon.png';
-import '../styles/Success.css'
 const Success = ()=>{
     return(
         <div className="modal" id="success" >
