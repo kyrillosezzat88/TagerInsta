@@ -22,12 +22,14 @@ import Policy from './components/Policy'
 import Login from './components/Login'
 import ForgetPass from './components/ForgetPass'
 import CreateAccount from './components/CreateAccount'
+import EditProfile from './components/EditProfile'
+import Currancy from './components/Currancy'
+import LangPopUp from './components/LangPopUp'
 class App extends Component{
   render(){
     return (
       <HashRouter>
         <div className="App">
-          
           <Switch>
             <Route path='/Home' component={Home}/>
             <Route exact path ='/' component={Welcome}/>
@@ -48,9 +50,12 @@ class App extends Component{
             <Route path='/Login' component={Login}/>
             <Route path='/ForgetPass' component={ForgetPass}/>
             <Route path='/CreateAccount' component={CreateAccount}/>
+            <Route path='/EditProfile' component={EditProfile}/>
           </Switch>
           <PaymentPopUp />
           <Success />
+          <Currancy />
+          <LangPopUp />
         </div>
       </HashRouter>
       

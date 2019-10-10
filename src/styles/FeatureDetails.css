@@ -32,6 +32,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.FeatureD h5 {
+  font-size: 19px !important;
+}
+
+.FeatureD p {
+  font-size: 15px !important;
+}
+
 .FeatureD nav {
   margin-bottom: 20px;
 }

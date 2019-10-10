@@ -1,4 +1,3 @@
-/*import general */
 /*General style for All app */
 /*Viraiable colors*/
 /*Fonts*/
@@ -27,40 +26,52 @@ input[type=number]:focus,
 }
 
 /*Style Input in Registration and Login Form*/
-.InstaServices {
+.EditProfile {
   background-color: #FAF9F7;
   height: 100vh;
 }
 
-.InstaServices .content {
+.EditProfile h5 {
+  font-size: 19px !important;
+}
+
+.EditProfile p {
+  font-size: 15px !important;
+}
+
+.EditProfile .content {
   margin: 30px 0;
 }
 
-.InstaServices .content h5 {
-  margin-bottom: 40px;
+.EditProfile .content form {
+  width: 100%;
 }
 
-.InstaServices .content .insta {
-  -webkit-box-shadow: 0 0 5px 5px #ddd;
-          box-shadow: 0 0 5px 5px #ddd;
-  background: #fff;
+.EditProfile .content form label {
+  font-size: 15px;
+}
+
+.EditProfile .content form .btns button {
+  margin-top: 25px;
+  background: none !important;
+  padding: 5px 15px;
+  border: 1px solid #CE2E2E;
   border-radius: 12px;
-  padding: 10px;
-  margin: 15px 0;
+  outline: none;
+  cursor: pointer;
+  margin: 0 10px;
 }
 
-.InstaServices .content .insta h6 {
-  color: #000;
-  margin: 0;
+.EditProfile .content form .btns button span {
+  color: #CE2E2E;
+  font-weight: bold;
 }
 
-.InstaServices .content .insta img {
-  margin-right: 15px;
-  width: 40px;
+.EditProfile .content form .btn {
+  background: #CE2E2E;
+  color: #fff;
+  margin: 30px 0;
+  padding: 5px 30px;
+  border-radius: 12px;
 }
-
-.InstaServices .content .insta .arrow {
-  width: 15px;
-  margin-left: 55px;
-}
-/*# sourceMappingURL=Insta.css.map */
+/*# sourceMappingURL=EditProfile.css.map */

@@ -32,6 +32,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.InstaFollower h5 {
+  font-size: 19px !important;
+}
+
+.InstaFollower p {
+  font-size: 15px !important;
+}
+
 .InstaFollower .content h5 {
   margin: 0;
   margin-top: 30px;
@@ -40,6 +48,7 @@ input[type=number]:focus,
 .InstaFollower .content p {
   margin-bottom: 30px !important;
   font-size: 15px;
+  color: #999;
 }
 
 .InstaFollower .content .info {
@@ -52,8 +61,8 @@ input[type=number]:focus,
   border-top-left-radius: 12px;
   padding-bottom: 15px;
   border-bottom-left-radius: 12px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   background: #fff;
   width: 80%;
 }

@@ -31,6 +31,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.PaymentHis h5 {
+  font-size: 19px !important;
+}
+
+.PaymentHis p {
+  font-size: 15px !important;
+}
+
 .PaymentHis .content {
   margin: 30px 0;
 }
@@ -60,8 +68,8 @@ input[type=number]:focus,
   font-size: 12px;
   margin-top: 30px;
   background: #fff;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
 }
 
 .PaymentHis .content .data table tr th {

@@ -31,6 +31,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Policy h5 {
+  font-size: 19px !important;
+}
+
+.Policy p {
+  font-size: 15px !important;
+}
+
 .Policy .content {
   margin: 30px 0;
 }

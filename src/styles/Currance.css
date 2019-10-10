@@ -1,4 +1,3 @@
-/*import general */
 /*General style for All app */
 /*Viraiable colors*/
 /*Fonts*/
@@ -27,40 +26,32 @@ input[type=number]:focus,
 }
 
 /*Style Input in Registration and Login Form*/
-.InstaServices {
-  background-color: #FAF9F7;
-  height: 100vh;
+.Currancy .modal-body {
+  border-bottom: 0;
 }
 
-.InstaServices .content {
-  margin: 30px 0;
+.Currancy .modal-body div {
+  padding: 0 !important;
 }
 
-.InstaServices .content h5 {
-  margin-bottom: 40px;
+.Currancy .modal-body div .ChCurrne {
+  -webkit-box-shadow: 0px 0px 5px 5px #ddd;
+          box-shadow: 0px 0px 5px 5px #ddd;
+  padding: 3px 10px !important;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 18px;
 }
 
-.InstaServices .content .insta {
-  -webkit-box-shadow: 0 0 5px 5px #ddd;
-          box-shadow: 0 0 5px 5px #ddd;
-  background: #fff;
-  border-radius: 12px;
-  padding: 10px;
-  margin: 15px 0;
-}
-
-.InstaServices .content .insta h6 {
-  color: #000;
+.Currancy .modal-body div .ChCurrne img {
+  width: 30px !important;
   margin: 0;
 }
 
-.InstaServices .content .insta img {
-  margin-right: 15px;
-  width: 40px;
+.Currancy .modal-body div .ChCurrne button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
 }
-
-.InstaServices .content .insta .arrow {
-  width: 15px;
-  margin-left: 55px;
-}
-/*# sourceMappingURL=Insta.css.map */
+/*# sourceMappingURL=Currance.css.map */

@@ -31,6 +31,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Support h5 {
+  font-size: 19px !important;
+}
+
+.Support p {
+  font-size: 15px !important;
+}
+
 .Support .content {
   margin-top: 30px;
 }
@@ -43,8 +51,8 @@ input[type=number]:focus,
 .Support .content .info {
   background: #fff;
   padding: 10px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   border-radius: 12px;
   margin-bottom: 25px;
 }

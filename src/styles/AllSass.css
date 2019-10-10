@@ -89,6 +89,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Support h5 {
+  font-size: 19px !important;
+}
+
+.Support p {
+  font-size: 15px !important;
+}
+
 .Support .content {
   margin-top: 30px;
 }
@@ -101,8 +109,8 @@ input[type=number]:focus,
 .Support .content .info {
   background: #fff;
   padding: 10px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   border-radius: 12px;
   margin-bottom: 25px;
 }
@@ -183,6 +191,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Services h5 {
+  font-size: 19px !important;
+}
+
+.Services p {
+  font-size: 15px !important;
+}
+
 .Services .content {
   margin: 30px 0;
 }
@@ -200,8 +216,8 @@ input[type=number]:focus,
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 0px 15px 3px #eee;
-          box-shadow: 0px 0px 15px 3px #eee;
+  -webkit-box-shadow: 0px 0px 15px 3px #ddd;
+          box-shadow: 0px 0px 15px 3px #ddd;
   padding: 5px;
 }
 
@@ -257,6 +273,14 @@ input[type=number]:focus,
 .Register {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.Register h5 {
+  font-size: 19px !important;
+}
+
+.Register p {
+  font-size: 15px !important;
 }
 
 .Register .content {
@@ -370,6 +394,14 @@ input[type=number]:focus,
 .Policy {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.Policy h5 {
+  font-size: 19px !important;
+}
+
+.Policy p {
+  font-size: 15px !important;
 }
 
 .Policy .content {
@@ -558,6 +590,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.PaymentHis h5 {
+  font-size: 19px !important;
+}
+
+.PaymentHis p {
+  font-size: 15px !important;
+}
+
 .PaymentHis .content {
   margin: 30px 0;
 }
@@ -587,8 +627,8 @@ input[type=number]:focus,
   font-size: 12px;
   margin-top: 30px;
   background: #fff;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
 }
 
 .PaymentHis .content .data table tr th {
@@ -638,12 +678,21 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Order h5 {
+  font-size: 19px !important;
+}
+
+.Order p {
+  font-size: 15px !important;
+}
+
 .Order .content {
   margin-top: 30px;
 }
 
 .Order .content .btn {
   border-radius: 8px;
+  margin-top: 20px;
 }
 
 .Order .content .data {
@@ -661,8 +710,8 @@ input[type=number]:focus,
   font-size: 12px;
   margin-top: 30px;
   background: #fff;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
 }
 
 .Order .content .data table tr th {
@@ -712,6 +761,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.News h5 {
+  font-size: 19px !important;
+}
+
+.News p {
+  font-size: 15px !important;
+}
+
 .News .content {
   margin-top: 30px;
 }
@@ -720,8 +777,8 @@ input[type=number]:focus,
   margin-top: 20px;
   background: #fff !important;
   border-radius: 18px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   margin-bottom: 25px;
 }
 
@@ -829,6 +886,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.MemberUp h5 {
+  font-size: 19px !important;
+}
+
+.MemberUp p {
+  font-size: 15px !important;
+}
+
 .MemberUp .head {
   padding: 20px 0;
   margin-bottom: 20px;
@@ -889,6 +954,14 @@ input[type=number]:focus,
 .Login {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.Login h5 {
+  font-size: 19px !important;
+}
+
+.Login p {
+  font-size: 15px !important;
 }
 
 .Login .content {
@@ -986,6 +1059,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.InstaFollower h5 {
+  font-size: 19px !important;
+}
+
+.InstaFollower p {
+  font-size: 15px !important;
+}
+
 .InstaFollower .content h5 {
   margin: 0;
   margin-top: 30px;
@@ -994,6 +1075,7 @@ input[type=number]:focus,
 .InstaFollower .content p {
   margin-bottom: 30px !important;
   font-size: 15px;
+  color: #999;
 }
 
 .InstaFollower .content .info {
@@ -1006,8 +1088,8 @@ input[type=number]:focus,
   border-top-left-radius: 12px;
   padding-bottom: 15px;
   border-bottom-left-radius: 12px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   background: #fff;
   width: 80%;
 }
@@ -1088,8 +1170,8 @@ input[type=number]:focus,
 }
 
 .InstaServices .content .insta {
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   background: #fff;
   border-radius: 12px;
   padding: 10px;
@@ -1148,6 +1230,14 @@ input[type=number]:focus,
   /*Style Menu*/
 }
 
+.Home h5 {
+  font-size: 19px !important;
+}
+
+.Home p {
+  font-size: 15px !important;
+}
+
 .Home .info {
   padding: 30px 0 20px 0;
 }
@@ -1167,6 +1257,10 @@ input[type=number]:focus,
   padding: 25px 15px;
   border-radius: 18px;
   position: relative;
+}
+
+.Home .blance div span {
+  margin-top: 10px;
 }
 
 .Home .blance div .add {
@@ -1195,8 +1289,8 @@ input[type=number]:focus,
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 0px 15px 3px #eee;
-          box-shadow: 0px 0px 15px 3px #eee;
+  -webkit-box-shadow: 0px 0px 15px 3px #ddd;
+          box-shadow: 0px 0px 15px 3px #ddd;
   height: 90%;
 }
 
@@ -1220,14 +1314,15 @@ input[type=number]:focus,
   top: 0;
   left: -100%;
   background-image: url("../images/drawer_back.png");
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
   overflow: hidden;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   height: 100%;
   padding-top: 50px;
   color: #fff;
-  width: 35%;
+  width: 30%;
 }
 
 @media all and (max-width: 720px) {
@@ -1298,6 +1393,14 @@ input[type=number]:focus,
 .ForgetPass {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.ForgetPass h5 {
+  font-size: 19px !important;
+}
+
+.ForgetPass p {
+  font-size: 15px !important;
 }
 
 .ForgetPass .content {
@@ -1396,6 +1499,14 @@ input[type=number]:focus,
 .FeatureD {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.FeatureD h5 {
+  font-size: 19px !important;
+}
+
+.FeatureD p {
+  font-size: 15px !important;
 }
 
 .FeatureD nav {
@@ -1506,6 +1617,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.CurrentTicket h5 {
+  font-size: 19px !important;
+}
+
+.CurrentTicket p {
+  font-size: 15px !important;
+}
+
 .CurrentTicket .content {
   margin-top: 30px;
 }
@@ -1542,8 +1661,8 @@ input[type=number]:focus,
 .CurrentTicket .content .preMes {
   background: #fff;
   border-radius: 12px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   margin-bottom: 25px;
 }
 
@@ -1591,6 +1710,14 @@ input[type=number]:focus,
 .CreateTicket {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.CreateTicket h5 {
+  font-size: 19px !important;
+}
+
+.CreateTicket p {
+  font-size: 15px !important;
 }
 
 .CreateTicket .content {
@@ -1659,6 +1786,14 @@ input[type=number]:focus,
 .CreateAccount {
   background-color: #FAF9F7;
   height: 100vh;
+}
+
+.CreateAccount h5 {
+  font-size: 19px !important;
+}
+
+.CreateAccount p {
+  font-size: 15px !important;
 }
 
 .CreateAccount .content {
@@ -1760,11 +1895,153 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.About h5 {
+  font-size: 19px !important;
+}
+
+.About p {
+  font-size: 15px !important;
+}
+
 .About .content {
   margin: 30px 0;
 }
 
 .About .content p:nth-child(2) {
   padding: 40px 20px;
+}
+
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+/*Edit bootstrap Form*/
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+/*Style Input in Registration and Login Form*/
+.EditProfile {
+  background-color: #FAF9F7;
+  height: 100vh;
+}
+
+.EditProfile h5 {
+  font-size: 19px !important;
+}
+
+.EditProfile p {
+  font-size: 15px !important;
+}
+
+.EditProfile .content {
+  margin: 30px 0;
+}
+
+.EditProfile .content form {
+  width: 100%;
+}
+
+.EditProfile .content form label {
+  font-size: 15px;
+}
+
+.EditProfile .content form .btns button {
+  margin-top: 25px;
+  background: none !important;
+  padding: 5px 15px;
+  border: 1px solid #CE2E2E;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.EditProfile .content form .btns button span {
+  color: #CE2E2E;
+  font-weight: bold;
+}
+
+.EditProfile .content form .btn {
+  background: #CE2E2E;
+  color: #fff;
+  margin: 30px 0;
+  padding: 5px 30px;
+  border-radius: 12px;
+}
+
+/*General style for All app */
+/*Viraiable colors*/
+/*Fonts*/
+@font-face {
+  font-family: SnBook;
+  src: url("/src/styles/fonts/GE Snd Book.ttf");
+}
+
+/* Style Page */
+/*Style Content of services (insta face twitter youtube)*/
+/*Edit bootstrap Form*/
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+/*Style Input in Registration and Login Form*/
+.Currancy .modal-body {
+  border-bottom: 0;
+}
+
+.Currancy .modal-body div {
+  padding: 0 !important;
+}
+
+.Currancy .modal-body div .ChCurrne {
+  -webkit-box-shadow: 0px 0px 5px 5px #ddd;
+          box-shadow: 0px 0px 5px 5px #ddd;
+  padding: 3px 10px !important;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 18px;
+}
+
+.Currancy .modal-body div .ChCurrne img {
+  width: 30px !important;
+  margin: 0;
+}
+
+.Currancy .modal-body div .ChCurrne button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
 }
 /*# sourceMappingURL=AllSass.css.map */

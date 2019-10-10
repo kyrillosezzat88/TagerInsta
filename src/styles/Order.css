@@ -32,12 +32,21 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.Order h5 {
+  font-size: 19px !important;
+}
+
+.Order p {
+  font-size: 15px !important;
+}
+
 .Order .content {
   margin-top: 30px;
 }
 
 .Order .content .btn {
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 .Order .content .data {
@@ -55,8 +64,8 @@ input[type=number]:focus,
   font-size: 12px;
   margin-top: 30px;
   background: #fff;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
 }
 
 .Order .content .data table tr th {

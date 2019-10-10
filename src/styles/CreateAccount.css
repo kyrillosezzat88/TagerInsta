@@ -31,6 +31,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.CreateAccount h5 {
+  font-size: 19px !important;
+}
+
+.CreateAccount p {
+  font-size: 15px !important;
+}
+
 .CreateAccount .content {
   height: 100vh;
 }

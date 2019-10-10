@@ -35,6 +35,14 @@ input[type=number]:focus,
   /*Style Menu*/
 }
 
+.Home h5 {
+  font-size: 19px !important;
+}
+
+.Home p {
+  font-size: 15px !important;
+}
+
 .Home .info {
   padding: 30px 0 20px 0;
 }
@@ -54,6 +62,10 @@ input[type=number]:focus,
   padding: 25px 15px;
   border-radius: 18px;
   position: relative;
+}
+
+.Home .blance div span {
+  margin-top: 10px;
 }
 
 .Home .blance div .add {
@@ -82,8 +94,8 @@ input[type=number]:focus,
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 0px 15px 3px #eee;
-          box-shadow: 0px 0px 15px 3px #eee;
+  -webkit-box-shadow: 0px 0px 15px 3px #ddd;
+          box-shadow: 0px 0px 15px 3px #ddd;
   height: 90%;
 }
 
@@ -107,14 +119,15 @@ input[type=number]:focus,
   top: 0;
   left: -100%;
   background-image: url("../images/drawer_back.png");
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
   overflow: hidden;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   height: 100%;
   padding-top: 50px;
   color: #fff;
-  width: 35%;
+  width: 30%;
 }
 
 @media all and (max-width: 720px) {

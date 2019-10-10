@@ -31,6 +31,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.About h5 {
+  font-size: 19px !important;
+}
+
+.About p {
+  font-size: 15px !important;
+}
+
 .About .content {
   margin: 30px 0;
 }

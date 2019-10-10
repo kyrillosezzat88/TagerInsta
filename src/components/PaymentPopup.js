@@ -4,7 +4,6 @@ import visa from '../images/myFatorah.png'
 import Close from '../images/close_payment_popup.png'
 const PaymentPopUp = ()=>{
     return(
-         
            <div className="modal" id="myModal" >
             <div className="modal-dialog">
                 <div className="modal-content">

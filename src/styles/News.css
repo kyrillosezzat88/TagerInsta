@@ -32,6 +32,14 @@ input[type=number]:focus,
   height: 100vh;
 }
 
+.News h5 {
+  font-size: 19px !important;
+}
+
+.News p {
+  font-size: 15px !important;
+}
+
 .News .content {
   margin-top: 30px;
 }
@@ -40,8 +48,8 @@ input[type=number]:focus,
   margin-top: 20px;
   background: #fff !important;
   border-radius: 18px;
-  -webkit-box-shadow: 0 0 5px 5px #eee;
-          box-shadow: 0 0 5px 5px #eee;
+  -webkit-box-shadow: 0 0 5px 5px #ddd;
+          box-shadow: 0 0 5px 5px #ddd;
   margin-bottom: 25px;
 }
 

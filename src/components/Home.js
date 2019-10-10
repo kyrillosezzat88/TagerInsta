@@ -101,7 +101,7 @@ class Home extends Component{
                             <p className='text-center'>Test</p>
                         <div className='logout d-flex justify-content-between align-items-center'>
                             <Link to="/Login"><div><img src={Logout} alt='logout'/> <p className='d-inline-block'>Logout</p></div></Link>
-                            <Link> <img src={userEdit} alt='edit'/></Link>
+                            <Link to='/EditProfile'> <img src={userEdit} alt='edit'/></Link>
                         </div>
                         <div className='balance d-flex justify-content-between align-items-center'>
                             <p>Balance</p>

@@ -20,7 +20,7 @@ const FeatureDetails = ()=>{
                         </div>
                         <div className="d-flex justify-content-around align-items-center">
                             <span>Price</span>
-                            <span>10 KWD</span>
+                            <span><span className="text-danger">10</span> KWD</span>
                         </div>
                     </div>
                     <h6 className="text-center">Please Enter Input Username</h6>
