@@ -48,8 +48,8 @@ input[type=number]:focus,
   margin-top: 20px;
   background: #fff !important;
   border-radius: 18px;
-  -webkit-box-shadow: 0 0 5px 5px #ddd;
-          box-shadow: 0 0 5px 5px #ddd;
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
   margin-bottom: 25px;
 }
 

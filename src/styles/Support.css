@@ -51,8 +51,8 @@ input[type=number]:focus,
 .Support .content .info {
   background: #fff;
   padding: 10px;
-  -webkit-box-shadow: 0 0 5px 5px #ddd;
-          box-shadow: 0 0 5px 5px #ddd;
+  -webkit-box-shadow: 0 0 5px 5px #eee;
+          box-shadow: 0 0 5px 5px #eee;
   border-radius: 12px;
   margin-bottom: 25px;
 }

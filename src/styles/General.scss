@@ -4,7 +4,7 @@
 $mainColor: #CE2E2E;
 $color:#fff;
 $contentColor:#FAF9F7;
-$shadowColor :#ddd;
+$shadowColor :#eee;
 $buttonColor:#31A67A;
 $linkColor : #000;
 
@@ -132,7 +132,7 @@ input[type=number]:focus,
         border-radius: 25px;
         width: 100%;
         outline: none;
-        background-color: $contentColor;
+        background-color: $color;
     }
 }
 // Button Form

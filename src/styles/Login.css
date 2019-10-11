@@ -77,7 +77,7 @@ input[type=number]:focus,
   border-radius: 25px;
   width: 100%;
   outline: none;
-  background-color: #FAF9F7;
+  background-color: #fff;
 }
 
 .Login .content form .btn {

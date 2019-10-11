@@ -105,8 +105,7 @@ class Home extends Component{
                         </div>
                         <div className='balance d-flex justify-content-between align-items-center'>
                             <p>Balance</p>
-                            <p>1000 KWD</p>
-                           <Link><img src={AddBalance} data-toggle="modal" data-target="#myModal"  width="35px"/></Link>
+                           <Link className="d-flex justify-content-center align-items-center"><p>1000 KWD</p><img src={AddBalance} data-toggle="modal" data-target="#myModal"  width="35px"/></Link>
                         </div>
                         <ul>
                             <li><Link to="/Services">Services</Link></li>
