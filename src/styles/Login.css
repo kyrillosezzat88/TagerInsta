@@ -39,12 +39,26 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.Login .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.Login .back img {
+  width: 13px;
+}
+
 .Login .content {
   height: 100vh;
 }
 
 .Login .content img {
   width: 180px;
+}
+
+.Login .content .zoomIn {
+  width: 100%;
 }
 
 .Login .content form {
@@ -62,7 +76,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {

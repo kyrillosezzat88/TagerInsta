@@ -39,6 +39,16 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.ForgetPass .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ForgetPass .back img {
+  width: 13px;
+}
+
 .ForgetPass .content {
   height: 100vh;
 }
@@ -50,6 +60,10 @@ input[type=number]:focus,
 .ForgetPass .content p {
   padding: 5px !important;
   font-size: 13px;
+}
+
+.ForgetPass .content .zoomIn {
+  width: 100%;
 }
 
 .ForgetPass .content form {
@@ -67,7 +81,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {

@@ -2,6 +2,14 @@
 
 .CreateAccount{
     @include Page();
+    .back{
+        position: absolute;
+        top:20px;
+        left:20px;
+        img{
+            width: 13px;
+        }
+    }
     .content{
         height: 100vh;
         img{
@@ -11,6 +19,9 @@
         p{
             padding:5px !important;
             font-size: 13px;
+        }
+        .zoomIn {
+            width: 100%;
         }
         form{
             background:$contentColor;

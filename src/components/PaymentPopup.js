@@ -5,7 +5,7 @@ import Close from '../images/close_payment_popup.png'
 const PaymentPopUp = ()=>{
     return(
            <div className="modal" id="myModal" >
-            <div className="modal-dialog">
+            <div className="modal-dialog d-flex justify-content-center align-items-center">
                 <div className="modal-content">
                 <div className="modal-header">
                     <h5 className="modal-title">Add balance</h5>

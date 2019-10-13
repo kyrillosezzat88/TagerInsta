@@ -4,11 +4,12 @@
 }
 
 .welcome img {
-  width: 40%;
+  width: 280px;
   margin-bottom: 50px;
 }
 
 .welcome .langs a {
+  width: 130px;
   margin: 0 10px;
   padding: 10px 15px;
   text-align: center;

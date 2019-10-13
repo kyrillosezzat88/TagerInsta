@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js';
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap';
+import 'animate.css/animate.css'
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;

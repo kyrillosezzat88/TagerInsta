@@ -24,18 +24,25 @@
                 background: $color;
                 width: 80%;
                 h6{margin: 0}
-                .blance{border-left: 1px solid #000;padding-left: 10px; margin-left: 80px;}
+                h6:nth-child(1){
+                   margin-right: 10px;
+                }
+                .blance{border-left: 1px solid #000;padding-left: 10px;}
                 span{color:$mainColor;}
             }
-        .btn{
-            background:#314055;
-            border:none;
-            height: 50px;
-            color:$color;
-            border-top-right-radius: 12px;
-            border-bottom-right-radius: 12px;
-            width: 20%;
-        }
+            a{
+                width:30%;
+                .btn{
+                    background:#314055;
+                    border:none;
+                    height: 50px;
+                    color:$color;
+                    border-top-right-radius: 12px;
+                    border-bottom-right-radius: 12px;
+                    width: 100%;
+                }
+        
+            }
     }
     .note{
         h5{margin-bottom: 20px;}

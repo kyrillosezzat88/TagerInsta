@@ -16,36 +16,44 @@ const Services = ()=>{
                     <h5>Services</h5>
                     <div className='row'>
                         <div className="col-6 col-md-3">
-                           <Link to="/InstaServices">
-                                <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                   <div className="img"> <img src={Insta}/></div>
-                                    <p>Instagram Services</p>
-                                </div>
-                           </Link>
+                           <div className='des'>
+                                <Link to="/InstaServices">
+                                        <div className="insta d-flex justify-content-center align-items-center flex-column">
+                                        <div className="img d-flex justify-content-center align-items-center"> <img src={Insta}/></div>
+                                            <p>Instagram Services</p>
+                                        </div>
+                                </Link>
+                           </div>
                         </div>
                         <div className="col-6 col-md-3">
-                           <Link>
-                            <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                    <div className="img">  <img src={Twitter}/></div>
-                                    <p>Twitter Services</p>
-                                </div>
-                           </Link>
+                            <div className='des'>
+                                <Link>
+                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
+                                        <div className="img d-flex justify-content-center align-items-center">  <img src={Twitter}/></div>
+                                        <p>Twitter Services</p>
+                                    </div>
+                                </Link>  
+                            </div>
                         </div>
                         <div className="col-6 col-md-3">
-                           <Link>
-                                <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                   <div className="img"> <img src={facebook}/></div>
-                                    <p>Facebook Services</p>
-                                </div>
-                           </Link>
+                            <div className='des'>
+                                <Link>
+                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
+                                    <div className="img d-flex justify-content-center align-items-center"> <img src={facebook}/></div>
+                                        <p>Facebook Services</p>
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
                         <div className="col-6 col-md-3">
-                           <Link>
-                            <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                   <div className="img"> <img src={Youtube}/></div>
-                                    <p>Youtube Services</p>
-                                </div>
-                           </Link>
+                           <div className="des">
+                                <Link>
+                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
+                                        <div className="img d-flex justify-content-center align-items-center"> <img src={Youtube}/></div>
+                                            <p>Youtube Services</p>
+                                        </div>
+                                </Link>
+                           </div>
                         </div>
                     </div>
                 </div>

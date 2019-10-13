@@ -13,39 +13,47 @@ const InstaServices = ()=>{
                 <div className="container">
                     <h5>Instagram Services</h5>
                     <div className="row">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-6">
                             <Link to="/InstaFollower">
-                                <div className="insta d-flex justify-content-start align-items-center">
-                                    <img src={Insta} />
-                                    <h6>Arab Mix Instagram Followers</h6>
-                                    <img className="arrow " src={Arrow} />
+                            <div className="insta d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src={Insta} />
+                                        <h6 className="d-inline-block">Arab Mix Instagram Followers</h6>
+                                    </div>
+                                    <div><img className="arrow " src={Arrow} /></div>
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-6">
                             <Link to="/InstaFollower">
-                                <div className="insta d-flex justify-content-start align-items-center">
-                                    <img src={Insta} />
-                                    <h6>Arab Mix Instagram Followers</h6>
-                                    <img className="arrow " src={Arrow} />
+                                <div className="insta d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src={Insta} />
+                                        <h6 className="d-inline-block">Arab Mix Instagram Followers</h6>
+                                    </div>
+                                    <div><img className="arrow " src={Arrow} /></div>
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-6 ">
                             <Link to="/InstaFollower">
-                                <div className="insta d-flex justify-content-start align-items-center">
-                                    <img src={Insta} />
-                                    <h6>Arab Mix Instagram Followers</h6>
-                                    <img className="arrow " src={Arrow} />
+                            <div className="insta d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src={Insta} />
+                                        <h6 className="d-inline-block">Arab Mix Instagram Followers</h6>
+                                    </div>
+                                    <div><img className="arrow " src={Arrow} /></div>
                                 </div>
                             </Link>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-6">
                             <Link to="/InstaFollower">
-                                <div className="insta d-flex justify-content-start align-items-center">
-                                    <img src={Insta} />
-                                    <h6>Arab Mix Instagram Followers</h6>
-                                    <img className="arrow " src={Arrow} />
+                            <div className="insta d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <img src={Insta} />
+                                        <h6 className="d-inline-block">Arab Mix Instagram Followers</h6>
+                                    </div>
+                                    <div><img className="arrow " src={Arrow} /></div>
                                 </div>
                             </Link>
                         </div>

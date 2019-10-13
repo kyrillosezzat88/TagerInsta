@@ -52,7 +52,7 @@ $linkColor : #000;
     }
     .checkmark {
         position: absolute;
-        top: 9%;
+        top: 27%;
         left: 0;
         height: 20px;
         width: 20px;
@@ -89,9 +89,7 @@ $linkColor : #000;
             width: 40px;
         }
         .arrow{
-           
             width: 15px;
-            margin-left: 55px;
         }
     }
 }
@@ -124,7 +122,7 @@ input[type=number]:focus,
         @media all and (max-width:720px) {
             left:9%;
         }
-        background:$contentColor;
+        background:linear-gradient( to bottom  , #FAF9F7 50% , #fff 50%);
     }
     input{
         padding:10px 15px;

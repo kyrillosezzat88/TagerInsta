@@ -33,11 +33,12 @@ input[type=number]:focus,
 }
 
 .welcome img {
-  width: 40%;
+  width: 280px;
   margin-bottom: 50px;
 }
 
 .welcome .langs a {
+  width: 130px;
   margin: 0 10px;
   padding: 10px 15px;
   text-align: center;
@@ -207,37 +208,37 @@ input[type=number]:focus,
   margin-bottom: 10px;
 }
 
-.Services .content a {
+.Services .content .des a {
   text-decoration: none;
   color: #000 !important;
 }
 
-.Services .content a div {
+.Services .content .des a div {
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 0px 15px 3px #eee;
           box-shadow: 0px 0px 15px 3px #eee;
-  padding: 5px;
+  padding: 3px;
 }
 
-.Services .content a div .img {
+.Services .content .des a div .img {
   width: 80px;
   min-height: 90px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.Services .content a div .img img {
+.Services .content .des a div .img img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.Services .content a div p {
+.Services .content .des a div p {
   padding-bottom: 20px;
 }
 
-.Services .content a div:hover {
+.Services .content .des a div:hover {
   opacity: .3;
 }
 
@@ -321,7 +322,7 @@ input[type=number]:focus,
 
 .Register .payment div .checkmark {
   position: absolute;
-  top: 9%;
+  top: 27%;
   left: 0;
   height: 20px;
   width: 20px;
@@ -445,22 +446,12 @@ input[type=number]:focus,
 
 /*Style Input in Registration and Login Form*/
 .modal .modal-dialog {
-  width: 30%;
-}
-
-@media all and (max-width: 720px) {
-  .modal .modal-dialog {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%) !important;
-            transform: translate(-50%, -50%) !important;
-    width: 80%;
-  }
+  height: 80vh;
 }
 
 .modal .modal-dialog .modal-content {
   border-radius: 18px;
+  width: 300px;
 }
 
 .modal .modal-header {
@@ -496,7 +487,7 @@ input[type=number]:focus,
 
 .modal .modal-body div .checkmark {
   position: absolute;
-  top: 9%;
+  top: 27%;
   left: 0;
   height: 20px;
   width: 20px;
@@ -518,9 +509,12 @@ input[type=number]:focus,
   display: block;
 }
 
-.modal .modal-body img {
+.modal .modal-body label {
+  margin-bottom: 0;
+}
+
+.modal .modal-body label img {
   margin-left: 5px;
-  margin-bottom: 15px;
   width: 110px;
 }
 
@@ -535,6 +529,7 @@ input[type=number]:focus,
   padding: 5px 15px;
   border: 1px solid #000;
   border-radius: 5px;
+  width: 100%;
 }
 
 .modal .modal-footer p {
@@ -804,6 +799,10 @@ input[type=number]:focus,
   font-size: 18px;
 }
 
+.News .content .card .card-body .w-100 {
+  margin-bottom: 20px;
+}
+
 /*General style for All app */
 /*Viraiable colors*/
 /*Fonts*/
@@ -908,10 +907,6 @@ input[type=number]:focus,
   margin-right: 10px;
 }
 
-.MemberUp .info .top {
-  margin-bottom: 60px;
-}
-
 .MemberUp button {
   background: #CE2E2E;
   border: none;
@@ -964,12 +959,26 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.Login .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.Login .back img {
+  width: 13px;
+}
+
 .Login .content {
   height: 100vh;
 }
 
 .Login .content img {
   width: 180px;
+}
+
+.Login .content .zoomIn {
+  width: 100%;
 }
 
 .Login .content form {
@@ -987,7 +996,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {
@@ -1098,24 +1108,31 @@ input[type=number]:focus,
   margin: 0;
 }
 
+.InstaFollower .content .info div h6:nth-child(1) {
+  margin-right: 10px;
+}
+
 .InstaFollower .content .info div .blance {
   border-left: 1px solid #000;
   padding-left: 10px;
-  margin-left: 80px;
 }
 
 .InstaFollower .content .info div span {
   color: #CE2E2E;
 }
 
-.InstaFollower .content .info .btn {
+.InstaFollower .content .info a {
+  width: 30%;
+}
+
+.InstaFollower .content .info a .btn {
   background: #314055;
   border: none;
   height: 50px;
   color: #fff;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  width: 20%;
+  width: 100%;
 }
 
 .InstaFollower .content .note h5 {
@@ -1190,7 +1207,6 @@ input[type=number]:focus,
 
 .InstaServices .content .insta .arrow {
   width: 15px;
-  margin-left: 55px;
 }
 
 /*Style Home Page*/
@@ -1268,6 +1284,17 @@ input[type=number]:focus,
   bottom: -13%;
 }
 
+.Home .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: none;
+}
+
 .Home .content {
   padding: 30px 0;
 }
@@ -1280,12 +1307,35 @@ input[type=number]:focus,
   color: #CE2E2E;
 }
 
-.Home .content a {
+.Home .content .des {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.Home .content .des a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   text-decoration: none;
   color: #000 !important;
 }
 
-.Home .content a div {
+.Home .content .des a span {
+  position: absolute;
+  top: 50px;
+  left: 18px;
+  background-color: #CE2E2E;
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+
+.Home .content .des a div {
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
@@ -1294,18 +1344,24 @@ input[type=number]:focus,
   height: 90%;
 }
 
-.Home .content a div .img {
+.Home .content .des a div .img {
   -webkit-box-shadow: none;
           box-shadow: none;
   width: 50%;
   height: 100%;
 }
 
-.Home .content a div .img img {
-  width: 95%;
+.Home .content .des a div .img img {
+  height: 80px;
 }
 
-.Home .content a div p {
+@media all and (max-width: 720px) {
+  .Home .content .des a div .img img {
+    height: 65px;
+  }
+}
+
+.Home .content .des a div p {
   padding-bottom: 25px;
 }
 
@@ -1313,22 +1369,18 @@ input[type=number]:focus,
   position: absolute;
   top: 0;
   left: -100%;
+  z-index: 999;
   background-image: url("../images/drawer_back.png");
   background-size: 100% 100%;
   background-position: center center;
   overflow: hidden;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
-  height: 100%;
   padding-top: 50px;
   color: #fff;
-  width: 30%;
-}
-
-@media all and (max-width: 720px) {
-  .Home .menu {
-    width: 65%;
-  }
+  max-width: 350px;
+  min-width: 320px;
+  height: 100vh;
 }
 
 .Home .menu .logout {
@@ -1407,6 +1459,16 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.ForgetPass .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ForgetPass .back img {
+  width: 13px;
+}
+
 .ForgetPass .content {
   height: 100vh;
 }
@@ -1418,6 +1480,10 @@ input[type=number]:focus,
 .ForgetPass .content p {
   padding: 5px !important;
   font-size: 13px;
+}
+
+.ForgetPass .content .zoomIn {
+  width: 100%;
 }
 
 .ForgetPass .content form {
@@ -1435,7 +1501,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {
@@ -1518,6 +1585,7 @@ input[type=number]:focus,
 }
 
 .FeatureD .info {
+  width: 500px;
   background: #fff;
   margin-bottom: 20px;
   padding: 20px;
@@ -1547,13 +1615,15 @@ input[type=number]:focus,
   position: relative;
   margin-top: 20px;
   margin-bottom: 30px;
+  width: 500px;
 }
 
 .FeatureD .pay label {
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {
@@ -1577,7 +1647,7 @@ input[type=number]:focus,
   border-radius: 12px;
   border: none;
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .FeatureD .btn h6 {
@@ -1731,6 +1801,7 @@ input[type=number]:focus,
 .CreateTicket .content input {
   width: 100%;
   margin: 20px 0;
+  border-radius: 12px;
 }
 
 .CreateTicket .content textarea {
@@ -1800,6 +1871,16 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.CreateAccount .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.CreateAccount .back img {
+  width: 13px;
+}
+
 .CreateAccount .content {
   height: 100vh;
 }
@@ -1812,6 +1893,10 @@ input[type=number]:focus,
 .CreateAccount .content p {
   padding: 5px !important;
   font-size: 13px;
+}
+
+.CreateAccount .content .zoomIn {
+  width: 100%;
 }
 
 .CreateAccount .content form {
@@ -1830,7 +1915,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {
@@ -2029,11 +2115,12 @@ input[type=number]:focus,
 }
 
 .Currancy .modal-body div .ChCurrne {
+  width: 100px;
   -webkit-box-shadow: 0px 0px 5px 5px #eee;
           box-shadow: 0px 0px 5px 5px #eee;
   padding: 3px 10px !important;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 5px 10px;
   border-radius: 18px;
 }
 
@@ -2047,5 +2134,7 @@ input[type=number]:focus,
   border: none;
   outline: none;
   font-size: 15px;
+  min-width: 74%;
+  overflow-wrap: break-word;
 }
 /*# sourceMappingURL=AllSass.css.map */

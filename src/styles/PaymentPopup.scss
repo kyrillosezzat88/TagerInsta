@@ -1,16 +1,10 @@
 @import 'General';
 .modal{
     .modal-dialog{
-        @media all and (max-width:720px) {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50% , -50%) !important;
-            width: 80%;
-        }
-        width: 30%;
+        height: 80vh;
         .modal-content{
             border-radius: 18px;
+            width: 300px;
         }
      }
      .modal-header{
@@ -22,10 +16,12 @@
          div{
            @include CheckBox();
          }
-         img{
-             margin-left: 5px;
-             margin-bottom: 15px;
-             width: 110px;
+         label{
+             margin-bottom: 0;
+            img{
+                margin-left: 5px;
+                width: 110px;
+            }
          }
      }
      .modal-footer{
@@ -34,6 +30,7 @@
              padding:5px 15px;
              border:1px solid #000;
              border-radius: 5px;
+             width: 100%;
          }
          p{
              margin-bottom: 20px !important;

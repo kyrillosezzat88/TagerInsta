@@ -74,4 +74,8 @@ input[type=number]:focus,
 .News .content .card .card-header p {
   font-size: 18px;
 }
+
+.News .content .card .card-body .w-100 {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=News.css.map */

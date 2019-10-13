@@ -39,6 +39,16 @@ input[type=number]:focus,
   font-size: 15px !important;
 }
 
+.CreateAccount .back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.CreateAccount .back img {
+  width: 13px;
+}
+
 .CreateAccount .content {
   height: 100vh;
 }
@@ -51,6 +61,10 @@ input[type=number]:focus,
 .CreateAccount .content p {
   padding: 5px !important;
   font-size: 13px;
+}
+
+.CreateAccount .content .zoomIn {
+  width: 100%;
 }
 
 .CreateAccount .content form {
@@ -69,7 +83,8 @@ input[type=number]:focus,
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {

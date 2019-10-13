@@ -54,10 +54,6 @@ input[type=number]:focus,
   margin-right: 10px;
 }
 
-.MemberUp .info .top {
-  margin-bottom: 60px;
-}
-
 .MemberUp button {
   background: #CE2E2E;
   border: none;

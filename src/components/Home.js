@@ -14,12 +14,16 @@ class Home extends Component{
     handelMenu = (e)=>{
         let menu = document.getElementsByClassName('menu')[0];
         menu.style.left = '0%';
-        e.stopPropagation();
+        let overlay = document.getElementsByClassName('overlay')[0];
+        overlay.style.display = 'block';
+        
     }
      //Function To close side menu when click on any part of page
     componentDidMount(){
         document.body.onclick = ()=>{
-            return document.getElementsByClassName('menu')[0].style.left = '-100%';
+            document.getElementsByClassName('menu')[0].style.left = '-100%';
+            let overlay = document.getElementsByClassName('overlay')[0];
+            overlay.style.display = 'none';
         }
     }
     componentWillUnmount(){
@@ -38,7 +42,7 @@ class Home extends Component{
                         <p>Tager insta</p>
                         <div></div>
                        </div>
-                      <div className='info d-flex justify-content-around align-items-center'>
+                      <div className='info d-flex justify-content-between align-items-center'>
                         <div className='memberName'>
                             <p>Test</p>
                             <Link to='/MemberUp'><button>Membership Upgrade</button></Link>
@@ -54,42 +58,53 @@ class Home extends Component{
                     </div>
                 </nav>
                 {/* End NavBar*/}
+                <div className="overlay"></div>
                 {/* Start Content Home Page */}
                 <div className='content'>
                     <div className='container'>
                         <p className='text-center'><span>Tager insta </span>All Social Networking Services</p>
                         <div className='row'>
                             <div className='col-6 col-md-3'>
-                                <Link to='/Services'>
-                                    <div className='service d-flex justify-content-center align-items-center flex-column'>
-                                        <div className='img d-flex justify-content-center align-items-center'><img src={Service} alt ='Serive' /></div>
-                                        <p>Service</p>
-                                    </div>
-                                </Link>
+                                <div className="des">
+                                    <Link to='/Services'>
+                                        <div className='service d-flex justify-content-center align-items-center flex-column'>
+                                            <div className='img d-flex justify-content-center align-items-center'><img src={Service} alt ='Serive' /></div>
+                                            <p>Service</p>
+                                        </div>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='col-6 col-md-3'>
-                                <Link to="/News">
-                                    <div className=' d-flex justify-content-center align-items-center flex-column'>
-                                       <div className="img d-flex justify-content-center align-items-center"> <img src={News} alt ='News' /></div>
-                                        <p>News</p>
-                                    </div>
-                                </Link>
+                               <div className="des">
+                                    <Link to="/News">
+                                    <span>1</span>
+                                        <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                        <div className="img d-flex justify-content-center align-items-center"> <img src={News} alt ='News' /></div>
+                                            <p>News</p>
+                                        </div>
+                                    </Link>
+                               </div>
                             </div>
                             <div className='col-6 col-md-3'>
-                                <Link to='/Order'>
-                                    <div className='Support d-flex justify-content-center align-items-center flex-column'>
-                                       <div className="img d-flex justify-content-center align-items-center"> <img src={Report} alt ='Serive' /></div>
-                                        <p>Orders</p>
-                                    </div>
-                                </Link>
+                                <div className="des">
+                                    <Link to='/Order'>
+                                        <div className='Support d-flex justify-content-center align-items-center flex-column'>
+                                        <div className="img d-flex justify-content-center align-items-center"> <img src={Report} alt ='Serive' /></div>
+                                            <p>Orders</p>
+                                        </div>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='col-6 col-md-3'>
-                                <Link to='/Support'>
-                                    <div className='Report d-flex justify-content-center align-items-center flex-column'>
-                                       <div className='img d-flex justify-content-center align-items-center'> <img src={Support} alt ='News' /></div>
-                                        <p>Support</p>
-                                    </div>
-                                </Link>
+                               <div className="des">
+                                    <Link to='/Support'>
+                                        <span>1</span>
+                                        <div className='Report d-flex justify-content-center align-items-center flex-column'>
+                                        <div className='img d-flex justify-content-center align-items-center'> <img src={Support} alt ='News' /></div>
+                                            <p>Support</p>
+                                        </div>
+                                    </Link>
+                               </div>
                             </div>
                         </div>
                     </div>

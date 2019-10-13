@@ -45,6 +45,7 @@ input[type=number]:focus,
 }
 
 .FeatureD .info {
+  width: 500px;
   background: #fff;
   margin-bottom: 20px;
   padding: 20px;
@@ -74,13 +75,15 @@ input[type=number]:focus,
   position: relative;
   margin-top: 20px;
   margin-bottom: 30px;
+  width: 500px;
 }
 
 .FeatureD .pay label {
   position: absolute;
   top: -28%;
   left: 3%;
-  background: #FAF9F7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FAF9F7), color-stop(50%, #fff));
+  background: linear-gradient(to bottom, #FAF9F7 50%, #fff 50%);
 }
 
 @media all and (max-width: 720px) {
@@ -104,7 +107,7 @@ input[type=number]:focus,
   border-radius: 12px;
   border: none;
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .FeatureD .btn h6 {

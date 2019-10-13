@@ -25,6 +25,7 @@ import CreateAccount from './components/CreateAccount'
 import EditProfile from './components/EditProfile'
 import Currancy from './components/Currancy'
 import LangPopUp from './components/LangPopUp'
+
 class App extends Component{
   render(){
     return (
@@ -52,10 +53,11 @@ class App extends Component{
             <Route path='/CreateAccount' component={CreateAccount}/>
             <Route path='/EditProfile' component={EditProfile}/>
           </Switch>
-          <PaymentPopUp />
+         
           <Success />
           <Currancy />
           <LangPopUp />
+          <PaymentPopUp />
         </div>
       </HashRouter>
       

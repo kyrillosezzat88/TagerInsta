@@ -7,6 +7,7 @@
         margin-bottom: 20px;
     }
     .info{
+        width: 500px;
         background:$color;
         margin-bottom: 20px;
         padding: 20px;
@@ -24,6 +25,7 @@
         position: relative;
         margin-top: 20px;
         margin-bottom: 30px;
+        width: 500px;
         label{
             position: absolute;
             top: -28%;
@@ -31,7 +33,7 @@
             @media all and (max-width:720px) {
                 left:9%;
             }
-            background:$contentColor;
+           background:linear-gradient( to bottom  , #FAF9F7 50% , #fff 50%);
         }
         input{
             padding:10px 15px;
@@ -45,7 +47,7 @@
     .btn{
         button{
             @include PayButton();
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         h6{color:blue;}
     }

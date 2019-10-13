@@ -48,37 +48,37 @@ input[type=number]:focus,
   margin-bottom: 10px;
 }
 
-.Services .content a {
+.Services .content .des a {
   text-decoration: none;
   color: #000 !important;
 }
 
-.Services .content a div {
+.Services .content .des a div {
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 0px 15px 3px #eee;
           box-shadow: 0px 0px 15px 3px #eee;
-  padding: 5px;
+  padding: 3px;
 }
 
-.Services .content a div .img {
+.Services .content .des a div .img {
   width: 80px;
   min-height: 90px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.Services .content a div .img img {
+.Services .content .des a div .img img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.Services .content a div p {
+.Services .content .des a div p {
   padding-bottom: 20px;
 }
 
-.Services .content a div:hover {
+.Services .content .des a div:hover {
   opacity: .3;
 }
 /*# sourceMappingURL=Services.css.map */

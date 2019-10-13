@@ -3,7 +3,7 @@ import success from '../images/success_icon.png';
 const Success = ()=>{
     return(
         <div className="modal" id="success" >
-            <div className="modal-dialog">
+            <div className="modal-dialog d-flex justify-content-center align-items-center">
                 <div className="modal-content">
                 <div className="modal-header d-flex justify-content-center align-item-center">
                     <img className="model-title" src={success} width="50px"/>

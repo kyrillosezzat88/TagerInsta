@@ -27,22 +27,12 @@ input[type=number]:focus,
 
 /*Style Input in Registration and Login Form*/
 .modal .modal-dialog {
-  width: 30%;
-}
-
-@media all and (max-width: 720px) {
-  .modal .modal-dialog {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%) !important;
-            transform: translate(-50%, -50%) !important;
-    width: 80%;
-  }
+  height: 80vh;
 }
 
 .modal .modal-dialog .modal-content {
   border-radius: 18px;
+  width: 300px;
 }
 
 .modal .modal-header {
@@ -78,7 +68,7 @@ input[type=number]:focus,
 
 .modal .modal-body div .checkmark {
   position: absolute;
-  top: 9%;
+  top: 27%;
   left: 0;
   height: 20px;
   width: 20px;
@@ -100,9 +90,12 @@ input[type=number]:focus,
   display: block;
 }
 
-.modal .modal-body img {
+.modal .modal-body label {
+  margin-bottom: 0;
+}
+
+.modal .modal-body label img {
   margin-left: 5px;
-  margin-bottom: 15px;
   width: 110px;
 }
 
@@ -117,6 +110,7 @@ input[type=number]:focus,
   padding: 5px 15px;
   border: 1px solid #000;
   border-radius: 5px;
+  width: 100%;
 }
 
 .modal .modal-footer p {
