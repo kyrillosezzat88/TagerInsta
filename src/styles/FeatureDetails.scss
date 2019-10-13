@@ -3,6 +3,7 @@
 
 .FeatureD{
     @include Page();
+    height: inherit !important;
     nav{
         margin-bottom: 20px;
     }

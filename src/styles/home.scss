@@ -36,7 +36,7 @@
     /*style Content */
     .overlay{
         width: 100%;
-        height: 100%;
+        height: 100vh;
         background:rgba(.8, .8, .8, .7);
         position: absolute;
         top:0;
@@ -52,52 +52,60 @@
                 color:$mainColor;
             }
         }
-        .des{
-             width: 100%;
-             padding-top: 100%;
-             position: relative;
-            
-            a{
-                position: absolute;
-                top:0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                text-decoration: none;
-                color:$linkColor !important;
-                span{
-                    position:absolute;
-                    top:50px;
-                    left: 18px;
-                    background-color: $mainColor;
-                    color: $color;
-                    border-radius: 50%;
-                    width: 22px;
-                    height: 22px;
-                    text-align: center;
-                }
-                div{
-                    background-color: $color;
-                    margin-top: 30px;
-                    border-radius: 12px;
-                    box-shadow: 0px 0px 15px 3px $shadowColor;
-                    height: 90%;
-                    .img{
-                        box-shadow: none;
-                        width:50%;
-                        height:100%;
-                        img{
-                            height: 80px;
-                            @media all and (max-width:720px) {
-                                height:65px;
-                            }
-                        }
-                    }
-                    p{padding-bottom: 25px;}
-                }
+        .col-6{
+            @media all and (max-width:720px) {
+                padding: 0 10px;
             }
-    
+            .des{
+                width: 100%;
+                padding-top: 100%;
+                position: relative;
+               a{
+                   position: absolute;
+                   top:0;
+                   left: 0;
+                   right: 0;
+                   bottom: 0;
+                   text-decoration: none;
+                   color:$linkColor !important;
+                   span{
+                       position:absolute;
+                       top:50px;
+                       left: 18px;
+                       background-color: $mainColor;
+                       color: $color;
+                       border-radius: 50%;
+                       width: 22px;
+                       height: 22px;
+                       text-align: center;
+                   }
+                   div{
+                       background-color: $color;
+                       margin-top: 30px;
+                       border-radius: 12px;
+                       box-shadow: 0px 0px 15px 3px $shadowColor;
+                       height: 90%;
+                       .img{
+                           box-shadow: none;
+                           width:50%;
+                           height:100%;
+                           img{
+                               height: 75px;
+                               @media all and (max-width:999px) {
+                                height: 46px;
+                            }
+                               @media all and (max-width:720px) {
+                                height: 55px;
+                            }
+                           }
+                       }
+                       p{padding-bottom: 25px;}
+                   }
+               }
+       
+           }
         }
+      
     }
 
     /*Style Menu*/

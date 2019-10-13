@@ -53,11 +53,10 @@ class App extends Component{
             <Route path='/CreateAccount' component={CreateAccount}/>
             <Route path='/EditProfile' component={EditProfile}/>
           </Switch>
-         
-          <Success />
-          <Currancy />
-          <LangPopUp />
-          <PaymentPopUp />
+            <Success />
+            <Currancy />
+            <LangPopUp />
+            <PaymentPopUp />
         </div>
       </HashRouter>
       

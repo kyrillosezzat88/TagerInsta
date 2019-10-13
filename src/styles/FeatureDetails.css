@@ -30,6 +30,7 @@ input[type=number]:focus,
 .FeatureD {
   background-color: #FAF9F7;
   height: 100vh;
+  height: inherit !important;
 }
 
 .FeatureD h5 {

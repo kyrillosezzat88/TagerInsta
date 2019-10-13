@@ -62,4 +62,10 @@ input[type=number]:focus,
 .InstaServices .content .insta .arrow {
   width: 15px;
 }
+
+@media all and (max-width: 720px) {
+  .InstaServices .content h6 {
+    font-size: 13px !important;
+  }
+}
 /*# sourceMappingURL=Insta.css.map */

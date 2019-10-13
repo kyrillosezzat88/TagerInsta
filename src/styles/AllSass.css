@@ -201,45 +201,71 @@ input[type=number]:focus,
 }
 
 .Services .content {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
-.Services .content h5 {
-  margin-bottom: 10px;
+.Services .content p {
+  margin: 0;
 }
 
-.Services .content .des a {
+.Services .content p span {
+  color: #CE2E2E;
+}
+
+@media all and (max-width: 720px) {
+  .Services .content .col-6 {
+    padding: 0 10px;
+  }
+}
+
+.Services .content .col-6 .des {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.Services .content .col-6 .des a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   text-decoration: none;
   color: #000 !important;
 }
 
-.Services .content .des a div {
+.Services .content .col-6 .des a div {
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 0px 15px 3px #eee;
           box-shadow: 0px 0px 15px 3px #eee;
-  padding: 3px;
+  height: 90%;
 }
 
-.Services .content .des a div .img {
-  width: 80px;
-  min-height: 90px;
+.Services .content .col-6 .des a div .img {
   -webkit-box-shadow: none;
           box-shadow: none;
+  height: 100%;
 }
 
-.Services .content .des a div .img img {
-  width: 100%;
-  margin-bottom: 10px;
+.Services .content .col-6 .des a div .img img {
+  height: 75px;
+  margin-bottom: 15px;
 }
 
-.Services .content .des a div p {
-  padding-bottom: 20px;
+@media all and (max-width: 999px) {
+  .Services .content .col-6 .des a div .img img {
+    height: 46px;
+  }
 }
 
-.Services .content .des a div:hover {
-  opacity: .3;
+.Services .content .col-6 .des a div p {
+  padding-bottom: 15px;
+}
+
+.Services .content .col-6 .des:hover {
+  opacity: .4;
 }
 
 /*Style Register*/
@@ -1209,6 +1235,12 @@ input[type=number]:focus,
   width: 15px;
 }
 
+@media all and (max-width: 720px) {
+  .InstaServices .content h6 {
+    font-size: 13px !important;
+  }
+}
+
 /*Style Home Page*/
 /*import general */
 /*General style for All app */
@@ -1286,7 +1318,7 @@ input[type=number]:focus,
 
 .Home .overlay {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: rgba(1, 1, 1, 0.7);
   position: absolute;
   top: 0;
@@ -1307,13 +1339,19 @@ input[type=number]:focus,
   color: #CE2E2E;
 }
 
-.Home .content .des {
+@media all and (max-width: 720px) {
+  .Home .content .col-6 {
+    padding: 0 10px;
+  }
+}
+
+.Home .content .col-6 .des {
   width: 100%;
   padding-top: 100%;
   position: relative;
 }
 
-.Home .content .des a {
+.Home .content .col-6 .des a {
   position: absolute;
   top: 0;
   left: 0;
@@ -1323,7 +1361,7 @@ input[type=number]:focus,
   color: #000 !important;
 }
 
-.Home .content .des a span {
+.Home .content .col-6 .des a span {
   position: absolute;
   top: 50px;
   left: 18px;
@@ -1335,7 +1373,7 @@ input[type=number]:focus,
   text-align: center;
 }
 
-.Home .content .des a div {
+.Home .content .col-6 .des a div {
   background-color: #fff;
   margin-top: 30px;
   border-radius: 12px;
@@ -1344,24 +1382,30 @@ input[type=number]:focus,
   height: 90%;
 }
 
-.Home .content .des a div .img {
+.Home .content .col-6 .des a div .img {
   -webkit-box-shadow: none;
           box-shadow: none;
   width: 50%;
   height: 100%;
 }
 
-.Home .content .des a div .img img {
-  height: 80px;
+.Home .content .col-6 .des a div .img img {
+  height: 75px;
 }
 
-@media all and (max-width: 720px) {
-  .Home .content .des a div .img img {
-    height: 65px;
+@media all and (max-width: 999px) {
+  .Home .content .col-6 .des a div .img img {
+    height: 46px;
   }
 }
 
-.Home .content .des a div p {
+@media all and (max-width: 720px) {
+  .Home .content .col-6 .des a div .img img {
+    height: 55px;
+  }
+}
+
+.Home .content .col-6 .des a div p {
   padding-bottom: 25px;
 }
 
@@ -1570,6 +1614,7 @@ input[type=number]:focus,
 .FeatureD {
   background-color: #FAF9F7;
   height: 100vh;
+  height: inherit !important;
 }
 
 .FeatureD h5 {

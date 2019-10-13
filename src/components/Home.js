@@ -11,16 +11,15 @@ import Logout from '../images/logout.png'
 import userEdit from '../images/userEdit.png'
 class Home extends Component{
     //Function to open menu and when click on it will prevent body function
-    handelMenu = (e)=>{
+    handelMenu = ()=>{
         let menu = document.getElementsByClassName('menu')[0];
         menu.style.left = '0%';
         let overlay = document.getElementsByClassName('overlay')[0];
         overlay.style.display = 'block';
-        
     }
      //Function To close side menu when click on any part of page
     componentDidMount(){
-        document.body.onclick = ()=>{
+        document.body.onclick = (e)=>{
             document.getElementsByClassName('menu')[0].style.left = '-100%';
             let overlay = document.getElementsByClassName('overlay')[0];
             overlay.style.display = 'none';
@@ -111,7 +110,7 @@ class Home extends Component{
                 </div>
                 {/* End Content Home Page */}
                 {/* Start Menu */}
-                <div className='menu' onClick={this.handelMenu}>
+                <div className='menu'>
                     <div className='container'>
                             <p className='text-center'>Test</p>
                         <div className='logout d-flex justify-content-between align-items-center'>
@@ -133,7 +132,6 @@ class Home extends Component{
                     </div>
                 </div>
                 {/* End Menu */}
-              
             </div>
         )
     }

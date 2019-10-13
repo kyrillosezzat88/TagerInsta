@@ -15,47 +15,46 @@ const Services = ()=>{
                 <div className='container'>
                     <h5>Services</h5>
                     <div className='row'>
-                        <div className="col-6 col-md-3">
-                           <div className='des'>
-                                <Link to="/InstaServices">
-                                        <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                        <div className="img d-flex justify-content-center align-items-center"> <img src={Insta}/></div>
-                                            <p>Instagram Services</p>
+                            <div className='col-6 col-md-3'>
+                                <div className="des">
+                                    <Link to='/InstaServices'>
+                                        <div className='service d-flex justify-content-center align-items-center flex-column'>
+                                            <div className='img d-flex justify-content-center align-items-center flex-column'><img src={Insta} alt ='Serive' /><p>Instgram Services</p></div>
+                                            
                                         </div>
-                                </Link>
-                           </div>
-                        </div>
-                        <div className="col-6 col-md-3">
-                            <div className='des'>
-                                <Link>
-                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                        <div className="img d-flex justify-content-center align-items-center">  <img src={Twitter}/></div>
-                                        <p>Twitter Services</p>
-                                    </div>
-                                </Link>  
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='col-6 col-md-3'>
+                               <div className="des">
+                                    <Link>
+                                        <div className=' d-flex justify-content-center align-items-center flex-column'>
+                                        <div className="img d-flex justify-content-center align-items-center flex-column"> <img src={Twitter} alt ='News' /><p>Twitter Services</p></div>
+                                            
+                                        </div>
+                                    </Link>
+                               </div>
+                            </div>
+                            <div className='col-6 col-md-3'>
+                                <div className="des">
+                                    <Link>
+                                        <div className='Support d-flex justify-content-center align-items-center flex-column'>
+                                        <div className="img d-flex justify-content-center align-items-center flex-column"> <img src={facebook} alt ='Serive' /><p>Facebook Services</p></div>
+                                            
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className='col-6 col-md-3'>
+                               <div className="des">
+                                    <Link >
+                                        <div className='Report d-flex justify-content-center align-items-center flex-column'>
+                                        <div className='img d-flex justify-content-center align-items-center flex-column flex-column'> <img src={Youtube} alt ='News' />  <p>Youtube Services</p></div>
+                                        </div>
+                                    </Link>
+                               </div>
                             </div>
                         </div>
-                        <div className="col-6 col-md-3">
-                            <div className='des'>
-                                <Link>
-                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                    <div className="img d-flex justify-content-center align-items-center"> <img src={facebook}/></div>
-                                        <p>Facebook Services</p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-6 col-md-3">
-                           <div className="des">
-                                <Link>
-                                    <div className="insta d-flex justify-content-center align-items-center flex-column">
-                                        <div className="img d-flex justify-content-center align-items-center"> <img src={Youtube}/></div>
-                                            <p>Youtube Services</p>
-                                        </div>
-                                </Link>
-                           </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             {/*End Content */}
