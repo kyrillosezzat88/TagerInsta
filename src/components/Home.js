@@ -9,6 +9,7 @@ import Support from '../images/support.png'
 import Report from '../images/report.png'
 import Logout from '../images/logout.png'
 import userEdit from '../images/userEdit.png'
+import BackGround from '../images/drawer_back.png';
 class Home extends Component{
     //Function to open menu and when click on it will prevent body function
     handelMenu = ()=>{
@@ -111,6 +112,7 @@ class Home extends Component{
                 {/* End Content Home Page */}
                 {/* Start Menu */}
                 <div className='menu'>
+                    <img className='background' src={BackGround} />
                     <div className='container'>
                             <p className='text-center'>Test</p>
                         <div className='logout d-flex justify-content-between align-items-center'>

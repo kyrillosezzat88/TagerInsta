@@ -1414,17 +1414,26 @@ input[type=number]:focus,
   top: 0;
   left: -100%;
   z-index: 999;
-  background-image: url("../images/drawer_back.png");
-  background-size: 100% 100%;
-  background-attachment: scroll;
-  background-position: center;
-  overflow: hidden;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   padding-top: 50px;
   color: #fff;
-  min-width: 300px;
+  width: 280px;
   min-height: 100vh;
+  background-color: #CE2E2E;
+}
+
+.Home .menu .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 280px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: right;
+     object-position: right;
 }
 
 .Home .menu .logout {
