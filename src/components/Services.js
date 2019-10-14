@@ -38,7 +38,7 @@ const Services = ()=>{
                             <div className='col-6 col-md-3'>
                                 <div className="des">
                                     <Link>
-                                        <div className='Support d-flex justify-content-center align-items-center flex-column'>
+                                        <div className=' d-flex justify-content-center align-items-center flex-column'>
                                         <div className="img d-flex justify-content-center align-items-center flex-column"> <img src={facebook} alt ='Serive' /><p>Facebook Services</p></div>
                                             
                                         </div>

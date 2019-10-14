@@ -87,7 +87,7 @@ class Home extends Component{
                             <div className='col-6 col-md-3'>
                                 <div className="des">
                                     <Link to='/Order'>
-                                        <div className='Support d-flex justify-content-center align-items-center flex-column'>
+                                        <div className=' d-flex justify-content-center align-items-center flex-column'>
                                         <div className="img d-flex justify-content-center align-items-center"> <img src={Report} alt ='Serive' /></div>
                                             <p>Orders</p>
                                         </div>

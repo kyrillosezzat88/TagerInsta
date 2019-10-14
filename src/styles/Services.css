@@ -29,7 +29,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Services {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Services h5 {

@@ -87,7 +87,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Support {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Support h5 {
@@ -189,7 +189,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Services {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Services h5 {
@@ -299,7 +299,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Register {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Register h5 {
@@ -420,7 +420,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Policy {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Policy h5 {
@@ -608,7 +608,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .PaymentHis {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .PaymentHis h5 {
@@ -696,7 +696,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Order {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Order h5 {
@@ -779,7 +779,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .News {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .News h5 {
@@ -908,7 +908,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .MemberUp {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .MemberUp h5 {
@@ -974,7 +974,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Login {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .Login h5 {
@@ -1092,7 +1092,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .InstaFollower {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .InstaFollower h5 {
@@ -1273,7 +1273,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .Home {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
   /*style Content */
   /*Style Menu*/
 }
@@ -1492,7 +1492,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .ForgetPass {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .ForgetPass h5 {
@@ -1613,8 +1613,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .FeatureD {
   background-color: #FAF9F7;
-  height: 100vh;
-  height: inherit !important;
+  min-height: 100vh;
 }
 
 .FeatureD h5 {
@@ -1733,7 +1732,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .CurrentTicket {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .CurrentTicket h5 {
@@ -1828,7 +1827,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .CreateTicket {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .CreateTicket h5 {
@@ -1905,7 +1904,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .CreateAccount {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .CreateAccount h5 {
@@ -2027,7 +2026,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .About {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .About h5 {
@@ -2076,7 +2075,7 @@ input[type=number]:focus,
 /*Style Input in Registration and Login Form*/
 .EditProfile {
   background-color: #FAF9F7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .EditProfile h5 {
