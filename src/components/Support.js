@@ -12,7 +12,7 @@ const Support = ()=>{
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <Link to="/CreateTicket"><button className="Ctiket btn btn-primary">Create Ticket</button></Link>
                     <div className="row">
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-6">
                             <div className='info d-flex justify-content-between align-items-center'>
                                 <div>Order Id <span className="font-weight-bold">500</span></div>
                                 <div className='date d-flex justify-content-center align-items-center'>
@@ -21,7 +21,7 @@ const Support = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-6">
                             <div className='info d-flex justify-content-between align-items-center'>
                                 <div>Order Id <span className="font-weight-bold">500</span></div>
                                 <div className='date d-flex justify-content-center align-items-center'>
@@ -30,7 +30,7 @@ const Support = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-6">
                             <div className='info d-flex justify-content-between align-items-center'>
                                 <div>Order Id <span className="font-weight-bold">500</span></div>
                                 <div className='date d-flex justify-content-center align-items-center'>

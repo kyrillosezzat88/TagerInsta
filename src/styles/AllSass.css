@@ -1416,6 +1416,7 @@ input[type=number]:focus,
   z-index: 999;
   background-image: url("../images/drawer_back.png");
   background-size: 100% 100%;
+  background-attachment: scroll;
   background-position: center;
   overflow: hidden;
   -webkit-transition: all .5s ease-in-out;

@@ -99,13 +99,11 @@
                             }
                            }
                        }
-                       p{padding-bottom: 25px;}
-                   }
-               }
-       
-           }
+                        p{padding-bottom: 25px;}
+                    }
+                }
+            }
         }
-      
     }
 
     /*Style Menu*/
@@ -115,14 +113,14 @@
         left:-100%;
         z-index: 999;
         background-image: url('../images/drawer_back.png');
-        background-size: 100% 100%;
+        background-size:100% 100%;
+        background-attachment:scroll;
         background-position: center;
         overflow: hidden;
         transition: all .5s ease-in-out;
         padding-top: 50px;
         color:$color;
         min-width: 300px;
-        
         min-height: 100vh;
         .logout{
             border-bottom: 1px solid $color;
