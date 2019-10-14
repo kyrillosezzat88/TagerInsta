@@ -40,7 +40,7 @@ input[type=number]:focus,
 }
 
 .EditProfile .content {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .EditProfile .content form {
