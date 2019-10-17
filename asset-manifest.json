@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TagerInsta/static/css/main.8e4190f1.chunk.css",
+    "main.js": "/TagerInsta/static/js/main.2e4624df.chunk.js",
+    "main.js.map": "/TagerInsta/static/js/main.2e4624df.chunk.js.map",
+    "runtime-main.js": "/TagerInsta/static/js/runtime-main.5e352f32.js",
+    "runtime-main.js.map": "/TagerInsta/static/js/runtime-main.5e352f32.js.map",
+    "static/css/2.c5304fc7.chunk.css": "/TagerInsta/static/css/2.c5304fc7.chunk.css",
+    "static/js/2.39d3d6d7.chunk.js": "/TagerInsta/static/js/2.39d3d6d7.chunk.js",
+    "static/js/2.39d3d6d7.chunk.js.map": "/TagerInsta/static/js/2.39d3d6d7.chunk.js.map",
+    "index.html": "/TagerInsta/index.html",
+    "precache-manifest.547e7140662483916f89a41ca9af6876.js": "/TagerInsta/precache-manifest.547e7140662483916f89a41ca9af6876.js",
+    "service-worker.js": "/TagerInsta/service-worker.js",
+    "static/css/2.c5304fc7.chunk.css.map": "/TagerInsta/static/css/2.c5304fc7.chunk.css.map",
+    "static/css/main.8e4190f1.chunk.css.map": "/TagerInsta/static/css/main.8e4190f1.chunk.css.map",
+    "static/media/ar.png": "/TagerInsta/static/media/ar.51e11dce.png",
+    "static/media/logo.png": "/TagerInsta/static/media/logo.a5e4bb54.png",
+    "static/media/myFatorah.png": "/TagerInsta/static/media/myFatorah.3fdd7970.png",
+    "static/media/paypal.png": "/TagerInsta/static/media/paypal.3ab3d035.png"
+  }
+}
