@@ -29,7 +29,7 @@ import LangPopUp from './components/LangPopUp'
 class App extends Component{
   render(){
     return (
-      <HashRouter>
+      <HashRouter basename="/TagerInsta">
         <div className="App">
           <Switch>
             <Route path='/Home' component={Home}/>
