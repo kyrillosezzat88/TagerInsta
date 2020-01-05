@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Welcome from './components/welcome';
-import { Route , Switch, BrowserRouter} from 'react-router-dom';
+import { Route , Switch, HashRouter} from 'react-router-dom';
 import './styles/AllSass.css';
 import Home from './components/Home';
 import MemberUp from './components/MemberUp'
@@ -29,7 +29,7 @@ import LangPopUp from './components/LangPopUp'
 class App extends Component{
   render(){
     return (
-      <BrowserRouter basename="/TagerInsta">
+      <HashRouter basename="/TagerInsta">
         <div className="App">
           <Switch>
             <Route path='/Home' component={Home}/>
@@ -58,7 +58,7 @@ class App extends Component{
             <LangPopUp />
             <PaymentPopUp />
         </div>
-      </BrowserRouter>
+      </HashRouter>
       
     );
   }
