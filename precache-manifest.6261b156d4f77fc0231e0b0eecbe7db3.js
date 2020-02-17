@@ -1,22 +1,22 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc44bd5e953b5fc41a276175cf1c0336",
+    "revision": "6e308f216a96d41624922fa28731a34d",
     "url": "/TagerInsta/index.html"
   },
   {
-    "revision": "5bc48ba5b39d85b56897",
-    "url": "/TagerInsta/static/css/2.c5304fc7.chunk.css"
+    "revision": "0cc19c6ebb521b11a9d5",
+    "url": "/TagerInsta/static/css/2.68775178.chunk.css"
   },
   {
-    "revision": "9a21949e286a87888845",
-    "url": "/TagerInsta/static/css/main.8e4190f1.chunk.css"
+    "revision": "083dbedb8fc0c603fd05",
+    "url": "/TagerInsta/static/css/main.ecbd480d.chunk.css"
   },
   {
-    "revision": "5bc48ba5b39d85b56897",
+    "revision": "0cc19c6ebb521b11a9d5",
     "url": "/TagerInsta/static/js/2.39d3d6d7.chunk.js"
   },
   {
-    "revision": "9a21949e286a87888845",
+    "revision": "083dbedb8fc0c603fd05",
     "url": "/TagerInsta/static/js/main.2e4624df.chunk.js"
   },
   {
